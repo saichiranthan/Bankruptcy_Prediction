@@ -1,0 +1,52 @@
+{
+    "summary": "JENSON AND NICHOLSON (INDIA) LIMITED is a company in the paint industry. The company's financial performance in 2015-16 was weak, with a decline of 54% in total revenue compared to the previous year. However, the management expects better growth prospects and operating results in the forthcoming years. The company has proper and adequate systems of internal controls, and it is committed to the development of its people. The Indian economy grew at 7.6% in 2015-16, and the paint industry is expected to touch Rs. 62,000 crore in the next two years.",
+    "bankruptcy_level": {
+        "lvl": "0.4"
+    },
+    "entities": [
+        {
+            "entity": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Paint industry",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Indian economy",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0"
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Paint industry",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0"
+        },
+        {
+            "source": "Indian economy",
+            "target": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "impact_level": "0.5",
+            "impact_type": "Financial",
+            "reason": "Growth in the Indian economy"
+        },
+        {
+            "source": "Paint industry",
+            "target": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.5",
+            "impact_type": "Financial",
+            "reason": "Decline in the paint industry"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "summary": "The company is facing financial difficulties and has a high bankruptcy level. The company's financial status and future prospects are uncertain, and the impact of the bankruptcy on the company is significant. The company is participating in events and producing products, but the impact of these activities on the company's financial situation is unclear.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "ABC Corporation",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Financial Difficulties",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Bankruptcy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Product A",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Product B",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ABC Corporation",
+            "target": "Financial Difficulties",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0.5"
+        },
+        {
+            "source": "ABC Corporation",
+            "target": "Product A",
+            "relation": "PRODUCES",
+            "production_volume": "1000",
+            "production_start_date": "2020-01-01"
+        },
+        {
+            "source": "ABC Corporation",
+            "target": "Product B",
+            "relation": "PRODUCES",
+            "production_volume": "500",
+            "production_start_date": "2020-06-01"
+        },
+        {
+            "source": "Financial Difficulties",
+            "target": "ABC Corporation",
+            "relation": "MENTIONS",
+            "sentiment": "-0.8",
+            "mention_count": "10"
+        },
+        {
+            "source": "Bankruptcy",
+            "target": "ABC Corporation",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.9",
+            "impact_type": "Financial",
+            "reason": "Financial difficulties"
+        }
+    ]
+}

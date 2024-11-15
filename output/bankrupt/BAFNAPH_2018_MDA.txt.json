@@ -1,0 +1,59 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a growing company in the pharmaceutical industry. The company has a strong presence in the domestic market and is also expanding its global footprint. The company's revenue has been increasing over the years, and it has a strong product portfolio. However, the company faces challenges such as intense competition and regulatory risks. The company has a strong management team and is well-equipped to handle the challenges. The company's future prospects look promising, and it is expected to continue its growth trajectory. The company's bankruptcy level is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Pharmaceutical Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Pharmaceutical Products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Global Pharmaceutical Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Pharmaceutical Products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000 units",
+                "Production Start Date": "2020-01-01"
+            }
+        },
+        {
+            "source": "Global Pharmaceutical Market",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "10"
+            }
+        },
+        {
+            "source": "Global Pharmaceutical Market",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.7",
+                "Impact Type": "Financial",
+                "Reason": "Increased demand for pharmaceutical products"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "summary": "Avanti Feeds Limited is a pioneer in the Indian shrimp industry with a 27-year proven track record. The company has a strong dealership network and collaboration with Thai Union Group, which has strengthened its capabilities. However, the Indian aquaculture industry faces challenges such as inadequate infrastructure facilities, lack of cold chain, and affordable financial support to aqua-farmers. The company's financial performance has been affected by the COVID-19 pandemic, but it has reported a profit of `40,419.31 Lakhs before tax adjustments. The company's future outlook is promising, with the Indian aquaculture sector expected to recover significantly in FY 2021-22.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Avanti Feeds Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shrimp feed",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Thai Union Group",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GAIL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Srivathsa Power Projects Private Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Patikari Power Private Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": 0.5,
+                "Impact Type": "Financial",
+                "Reason": "Reduced demand and disruptions in supply chain"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Thai Union Group",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": 0.2
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Shrimp feed",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": 100000,
+                "Production Start Date": "2020-01-01"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Avanti Feeds Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": -0.5,
+                "Mention Count": 5
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Srivathsa Power Projects Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": 0.5,
+                "Acquisition Date": "2015-01-01"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Patikari Power Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": 0.25,
+                "Acquisition Date": "2010-01-01"
+            }
+        }
+    ]
+}

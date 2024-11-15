@@ -1,0 +1,77 @@
+{
+    "summary": "Jaihind Project Ltd. is a major player in the EPC sector with over 50 years of experience. The company has maintained its momentum in the highly volatile market by focusing on cost control measures and product mix enrichment. The company's financial performance for the year 2016-17 is stable, and the outlook for the future is positive. The company has a global outlook and focuses on projects in emerging economies. However, the company is exposed to various risk factors, including financial, technical, construction, policy, and political risks.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Jaihind Project Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GST Act",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Infrastructure Development",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        },
+        {
+            "entity": "EPC Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Pipelines",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaihind Project Ltd.",
+            "target": "GST Act",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Jaihind Project Ltd.",
+            "target": "Infrastructure Development",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Reserve Bank of India",
+            "target": "Infrastructure Development",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Indian Government",
+            "target": "Infrastructure Development",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Demonetization",
+            "target": "Jaihind Project Ltd.",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "Jaihind Project Ltd.",
+            "target": "EPC Sector",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Jaihind Project Ltd.",
+            "target": "Pipelines",
+            "relation": "PRODUCES"
+        }
+    ]
+}

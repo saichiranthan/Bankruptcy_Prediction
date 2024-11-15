@@ -1,0 +1,45 @@
+{
+    "summary": "The company's financial health has been impacted by the poor financial health of its customers and the need for reforms in the power production sector. Despite this, the company's order book is healthy and it has won several prestigious orders. The company is taking steps to improve operational efficiency and cut costs, and its international operations are becoming cash positive. The company's strategy is expected to stand it in good stead in the years to come.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL Phase Power Technologies Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Energex Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Secondary Switchgear (Ring Main Units)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Power Protections Systems",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Switchcraft Europe GmbH",
+            "target": "Energex Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ERL Phase Power Technologies Ltd.",
+            "target": "Power Protections Systems",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Switchcraft Europe GmbH",
+            "target": "Secondary Switchgear (Ring Main Units)",
+            "relation": "PRODUCES"
+        }
+    ]
+}

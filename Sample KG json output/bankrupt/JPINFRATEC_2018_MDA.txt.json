@@ -1,0 +1,86 @@
+{
+    "summary": "Jaypee Infratech Ltd. is a company that has been facing financial difficulties. The company's financial performance for the year 2017-18 was affected by the Corporate Insolvency Resolution Process (CIRP). The company's revenue from toll collection for the year ended 31st March 2018 aggregated to 325.73 Crores, higher by 11.28% compared to the previous year. However, the company's net loss for the year under review stood at 102.29 Crores. The company's future prospects are uncertain due to the ongoing CIRP and the rejection of the Resolution Plan by the Financial Creditors. The company's bankruptcy level is 0.6.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Jaypee Healthcare Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Uttar Pradesh Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Real Estate Development Council (NAREDCO)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Corporate Insolvency Resolution Process (CIRP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Yamuna Expressway Project",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Eastern Peripheral Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Agra Lucknow Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Circular Agra Ring Road",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Jaypee Healthcare Ltd.",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Yamuna Expressway Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Eastern Peripheral Expressway",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Agra Lucknow Expressway",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Circular Agra Ring Road",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Jaypee Infratech Ltd.",
+            "target": "Corporate Insolvency Resolution Process (CIRP)",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Uttar Pradesh Government",
+            "target": "Jewar International airport project",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "National Real Estate Development Council (NAREDCO)",
+            "target": "Jaypee Infratech Ltd.",
+            "relation": "MENTIONS"
+        }
+    ]
+}

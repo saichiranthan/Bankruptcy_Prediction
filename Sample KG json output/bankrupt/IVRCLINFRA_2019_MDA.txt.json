@@ -1,0 +1,77 @@
+{
+    "summary": "IVRCL Ltd is an Indian company that operates in the infrastructure sector, focusing on EPC (Engineering, Procurement, and Construction) projects. The company has been facing financial difficulties and is currently under the Insolvency and Bankruptcy Code (IBC) for resolution. Despite this, the company continues to execute its ongoing projects and is exploring new opportunities in the infrastructure sector. The company's future outlook is uncertain, pending the outcome of the liquidation process. The bankruptcy level of the company is 0.6, indicating a critical situation. The company's financial status is strained, and its future prospects are uncertain.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Tata Institute of Fundamental Research",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "PGCIL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NHAI",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NCLT",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Malanjkhand Underground Project",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Transmission Line Tower (TLT)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "IVRCL Technical Services and Solutions",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL Ltd",
+            "target": "Malanjkhand Underground Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "Transmission Line Tower (TLT)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "IVRCL Technical Services and Solutions",
+            "relation": "OWNS"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "Tata Institute of Fundamental Research",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "PGCIL",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "NHAI",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL Ltd",
+            "target": "NCLT",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

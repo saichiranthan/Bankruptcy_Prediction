@@ -1,0 +1,93 @@
+{
+    "summary": "Aster DM Healthcare Limited is a company operating in the healthcare sector. The global economic growth has been estimated to be around 3% in 2017, with a growth rate of 6.7% in India. The GCC economic growth has been modest, with a growth rate of 2.6% in the non-oil economy. The company's financial status is stable, with a growth rate of 7.5% expected in the fiscal year 2018-19. However, the company faces challenges such as rising costs and declining margins in the healthcare sector. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Aster DM Healthcare Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Growth",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GCC Economic Growth",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economic Growth",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Healthcare Sector",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Global Economic Growth",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "GCC Economic Growth",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.3"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Indian Economic Growth",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.6"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Healthcare Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2017-01-01"
+            }
+        },
+        {
+            "source": "Global Economic Growth",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "GCC Economic Growth",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.3",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "Indian Economic Growth",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.6",
+                "Mention Count": "7"
+            }
+        }
+    ]
+}

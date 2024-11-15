@@ -1,0 +1,78 @@
+{
+    "summary": "The global economy is in stress again due to the COVID-19 pandemic, Russia-Ukraine war, and high inflation. The digital economy is growing rapidly, with India's consumer digital economy expected to reach $800 billion by 2030. AFFLE (INDIA) LIMITED operates two business platforms: Consumer Platform and Enterprise Platform. The company's revenue from contracts with customers increased by 109.3% in FY2021-22. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "AFFLE (INDIA) LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Russia-Ukraine war",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Consumer Platform",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Enterprise Platform",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "AFFLE (INDIA) LIMITED",
+            "target": "Consumer Platform",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "AFFLE (INDIA) LIMITED",
+            "target": "Enterprise Platform",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "AFFLE (INDIA) LIMITED",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Global economic stress"
+            }
+        },
+        {
+            "source": "Russia-Ukraine war",
+            "target": "AFFLE (INDIA) LIMITED",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.1",
+                "Impact Type": "Financial",
+                "Reason": "Global economic stress"
+            }
+        },
+        {
+            "source": "Consumer Platform",
+            "target": "AFFLE (INDIA) LIMITED",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "1",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Enterprise Platform",
+            "target": "AFFLE (INDIA) LIMITED",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "1",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

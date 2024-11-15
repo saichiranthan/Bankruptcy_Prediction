@@ -1,0 +1,109 @@
+{
+    "summary": "The Indian sugar industry is facing challenges due to falling global sugar prices and high sugarcane procurement costs. The industry is also affected by questionable governmental policies and outdated technology. However, the industry has opportunities for growth through the production of high-value byproducts and the use of advanced technology. The company, Balrampur Chini Mills Limited, has a significant presence in the Indian sugar industry and has a diversified portfolio of products including sugar, alcohol, and cogeneration. The company's financial performance has been affected by the challenges faced by the industry, but it has taken steps to reduce its debt and improve its capital structure.",
+    "bankruptcy_level": {
+        "lvl": "0.4"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian sugar industry",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Sugar industry",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Cogeneration",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Alcohol",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global sugar market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Brazil",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Cogeneration",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "282.40",
+                "Production Start Date": "2014-15"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Alcohol",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "285.27",
+                "Production Start Date": "2014-15"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "2422.77",
+                "Production Start Date": "2014-15"
+            }
+        },
+        {
+            "source": "Global sugar market",
+            "target": "Indian sugar industry",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian government",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.7",
+                "Impact Type": "Financial",
+                "Reason": "Questionable governmental policies"
+            }
+        },
+        {
+            "source": "Brazil",
+            "target": "Indian sugar industry",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "20"
+            }
+        }
+    ]
+}

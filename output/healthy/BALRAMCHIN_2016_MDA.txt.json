@@ -1,0 +1,96 @@
+{
+    "summary": "The Indian sugar industry plays a critical role in addressing consumer preferences, economic growth and environmental responsibility. The industry's annual turnover is estimated at over C80,000 Crore; it contributes about C2,500 Crore per annum to the exchequer through taxes. However, the industry faces challenges such as production surplus, weakening realisations, regulated resource, and vulnerable end product. Despite these challenges, the industry has emerged as a potent driver of environmental responsibility through the manufacture of ethanol and cogeneration. The company, Balrampur Chini Mills Limited, is one of the major players in the industry. The company's financial performance has been affected by high domestic sugarcane prices, uncompetitive export pricing, working capital tied up in sugar stocks, and mounting cane arrears. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian sugar industry",
+            "type": "INDUSTRY"
+        },
+        {
+            "entity": "Sugar Development Fund",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ethanol blended petrol programme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Cane price",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Indian sugar industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indian sugar industry",
+            "target": "Sugar Development Fund",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Indian sugar industry",
+            "target": "Ethanol blended petrol programme",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Indian sugar industry",
+            "target": "Cane price",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Sugar Development Fund",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Financing the sugar industry"
+            }
+        },
+        {
+            "source": "Ethanol blended petrol programme",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Increasing ethanol prices"
+            }
+        },
+        {
+            "source": "Cane price",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "High domestic sugarcane prices"
+            }
+        }
+    ]
+}

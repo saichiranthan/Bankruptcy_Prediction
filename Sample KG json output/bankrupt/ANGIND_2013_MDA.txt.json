@@ -1,0 +1,104 @@
+{
+    "summary": "ANG Industries Ltd is one of India's largest manufacturers of Heavy Fabrication Boiler Support Structures. The company has a state-of-the-art manufacturing facility and has received orders for various projects. However, the company suffered a loss of Rs. 1270.41 Lacs in the current year. The company's financial statements have been prepared in accordance with the requirements of the Companies Act, 1956, and Generally Accepted Accounting Principles (GAAP). The company has identified significant new business opportunities for Heavy Steel Fabrication and is expected to maintain its strong position in the market.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ANG Industries Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NTPC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BGR",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Management Discussion and Analysis Report",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Heavy Steel Fabrication Boiler Support Structures",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Automotive",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Commercial Vehicles",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Agriculture components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "OFF Highways",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Defence",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Enterprise Risk Management",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Heavy Steel Fabrication Boiler Support Structures",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "NTPC",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "BGR",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Management Discussion and Analysis Report",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Automotive",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Commercial Vehicles",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Agriculture components",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "OFF Highways",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Defence",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Enterprise Risk Management",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

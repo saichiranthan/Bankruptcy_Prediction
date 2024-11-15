@@ -1,0 +1,72 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in the steel industry and has been affected by several challenges, including a decline in iron and steel prices, issues with the mining sector, and uncontrolled imports. The company's performance has been marred due to the sharp decline in the performance of its major customers. Despite this, the company is expected to benefit from the government's focus on reforms and increased investments in infrastructure and construction sectors. The company's financial performance has been impacted by external industry factors, and it has incurred a pre-tax loss of Rs. 760.81 Crores. However, the company is taking steps to control costs and improve its operational efficiency.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Orissa Manganese & Minerals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Steel Association",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "RBI",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Sumit Binani",
+            "type": "PERSON"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Orissa Manganese & Minerals Limited",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Sumit Binani",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "Government of India",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Steel",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "World Steel Association",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Government of India",
+            "relation": "COMPETES_WITH"
+        }
+    ]
+}

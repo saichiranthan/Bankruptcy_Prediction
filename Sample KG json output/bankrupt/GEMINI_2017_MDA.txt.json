@@ -1,0 +1,77 @@
+{
+    "summary": "Gemini TSG continues to deliver high-quality services to its customers in the telecommunication field, despite the challenges in the market. The company has strengthened its team and maintained its partnerships with key customers. Gemini TSG's expertise in planning, deployment, and field operations has positioned it as a preferred partner with many leading service providers. The company's financial status is stable, and its future prospects are optimistic. Point Red Telecom is also expanding its presence in the Middle East and Africa, and is aggressively pursuing opportunities in India. The company's R&D capabilities are customizable to support both 3G and LTE technologies.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Gemini TSG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Point Red Telecom",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Middle East & Africa",
+            "type": "EVENT"
+        },
+        {
+            "entity": "3G",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "LTE",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "4G",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Carrier Wi-Fi",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gemini TSG",
+            "target": "India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Point Red Telecom",
+            "target": "Middle East & Africa",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Point Red Telecom",
+            "target": "India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gemini TSG",
+            "target": "3G",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gemini TSG",
+            "target": "LTE",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Point Red Telecom",
+            "target": "4G",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Point Red Telecom",
+            "target": "Carrier Wi-Fi",
+            "relation": "PRODUCES"
+        }
+    ]
+}

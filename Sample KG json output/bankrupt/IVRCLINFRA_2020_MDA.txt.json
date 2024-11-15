@@ -1,0 +1,94 @@
+{
+    "summary": "The company, IVRCL, is going through a liquidation process as a going concern due to the failure of the Corporate Insolvency Resolution Process (CIRP). Despite this, the company has been focusing on its on-hand O&M business to improve its pre-qualifications and retain its technical manpower. The company has a great repute in retention of human resource and skill improvement during changing times. With the Government's target for becoming a $5 Trillion Economy by 2025, the environment for Civil & Contracting companies has started looking up to be more prospective and encouraging. IVRCL has been maintaining an effective system of internal control for facilitating accurate, reliable and speedy compilation of financial information, safeguarding the assets and interests of the company and ensuring compliance with all laws and regulations.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Infrastructure Pipeline (NIP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Chambal-Dholpur-Bharathpur Water Supply Project",
+            "type": "EVENT"
+        },
+        {
+            "entity": "All India Institute of Medical Sciences (AIIMS)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Institute of Biomedical Genomics (NIBMG)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Malanjkhand Underground Project",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ministry of Finance",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Public Health Engineering Department (PHED)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NHAI",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL",
+            "target": "National Infrastructure Pipeline (NIP)",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL",
+            "target": "Chambal-Dholpur-Bharathpur Water Supply Project",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL",
+            "target": "All India Institute of Medical Sciences (AIIMS)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL",
+            "target": "National Institute of Biomedical Genomics (NIBMG)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL",
+            "target": "Malanjkhand Underground Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ministry of Finance",
+            "target": "National Infrastructure Pipeline (NIP)",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Government of India",
+            "target": "NHAI",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Public Health Engineering Department (PHED)",
+            "target": "Chambal-Dholpur-Bharathpur Water Supply Project",
+            "relation": "OWNS"
+        }
+    ]
+}

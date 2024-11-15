@@ -1,0 +1,67 @@
+{
+    "summary": "The Indian economy is growing strongly, with a growth rate of 7.4% in 2017-18, making it the fastest growing large economy in the world. The global enzyme market is also growing, with a projected size of USD 9.5 billion by 2022. Advanced Enzyme Technologies Limited is a key player in the Indian enzyme market, which is expected to grow at a rate of 10% per year through 2017-18. The company is well-positioned to benefit from the growing demand for enzymes in various industries such as pharmaceuticals, food processing, and biofuels.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Advanced Enzyme Technologies Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Enzyme Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Enzyme Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Probiotics",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Indian Enzyme Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand for enzymes"
+            }
+        },
+        {
+            "source": "Global Enzyme Market",
+            "target": "Indian Enzyme Market",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Probiotics",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000 units",
+                "Production Start Date": "2018-01-01"
+            }
+        }
+    ]
+}

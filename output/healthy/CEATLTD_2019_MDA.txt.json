@@ -1,0 +1,78 @@
+{
+    "summary": "CEAT Limited is a company in the tyre industry, which has been affected by the global economic slowdown and trade tensions between the US and China. The company's financial status is stable, but its future prospects are uncertain. The Indian economy is expected to grow, driven by the services and infrastructure sectors, but the global economic growth is expected to slow down. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "CEAT Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Slowdown",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tyre",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US-China Trade Tensions",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "CEAT Limited",
+            "target": "Global Economic Slowdown",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Tyre",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "3.1 Billion units",
+                "Production Start Date": "2018"
+            }
+        },
+        {
+            "source": "Global Economic Slowdown",
+            "target": "CEAT Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Trade tensions and economic slowdown"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "CEAT Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing services and infrastructure sectors"
+            }
+        },
+        {
+            "source": "US-China Trade Tensions",
+            "target": "CEAT Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Trade tensions and economic slowdown"
+            }
+        }
+    ]
+}

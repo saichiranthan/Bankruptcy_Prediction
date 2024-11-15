@@ -1,0 +1,104 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a pharmaceutical company that has experienced a decline in revenue and net loss in the year 2019. The company is in growth and expansion mode, requiring further investment to manage its growth. The company plans to improve its EBIDTA margins by increasing revenue from contract manufacturing, expanding to new geographies, and focusing on research and development. The company has a global footprint with approvals and pending applications in various countries. The company's internal control systems are in place to safeguard its assets and provide adequate financial and accounting controls.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "US-China trade war",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Brexit",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Patent expiry of biologics",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global economic growth",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Regulatory risks",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Pharmaceutical products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "US-China trade war",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.8,
+                "impact_type": "Financial",
+                "reason": "Decline in revenue and net loss"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Brexit",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.4,
+                "impact_type": "Financial",
+                "reason": "Uncertainty in global economic growth"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Patent expiry of biologics",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.6,
+                "impact_type": "Financial",
+                "reason": "Opportunity for growth and expansion"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Pharmaceutical products",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "Not specified",
+                "production_start_date": "Not specified"
+            }
+        },
+        {
+            "source": "US-China trade war",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": -0.8,
+                "mention_count": 2
+            }
+        },
+        {
+            "source": "Brexit",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": -0.4,
+                "mention_count": 1
+            }
+        },
+        {
+            "source": "Patent expiry of biologics",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": 0.6,
+                "mention_count": 2
+            }
+        }
+    ]
+}

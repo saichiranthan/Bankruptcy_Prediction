@@ -1,0 +1,311 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in the steel industry and has been affected by the decline in the performance of its important customers. The company's performance has been marred due to the sharp decline in the performance of its customers. The Indian economy is on a path of gradual recovery, but the steel industry is facing challenges due to overcapacity in China and subsequent dumping of steel products into the world market. The company's future prospects are uncertain due to the challenging market conditions.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ghanshyam Das Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Jugal Kishore Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nirmal Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Mohan Lal Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Mahesh Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nihar Ranjan Hota",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Ramgopal Agarwala",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nandanandan Mishra",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Raghaw Sharan Pandey",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Gopal Dikshit",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Amrendra Prasad Verma",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Manoj Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Uttara Dasgupta",
+            "type": "PERSON"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Germany",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "South Korea",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Brazil",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Russia",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Turkey",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Orissa Manganese & Minerals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Karvy Computershare Pvt. Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Das & Prasad Chartered Accountants",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "SB & Associates Cost Accountants",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Allahabad Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bank of Baroda",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bank of Maharashtra",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Corporation Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "HDFC Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ICICI Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IFCI Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Overseas Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Punjab National Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Punjab & Sind Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Bikaner & Jaipur",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Mysore",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Patiala",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Travancore",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Syndicate Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "SREI Infrastructure Finance Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UCO Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Union Bank of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ghanshyam Das Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Chairman",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Jugal Kishore Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nirmal Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Managing Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Mohan Lal Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Mahesh Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nihar Ranjan Hota",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ramgopal Agarwala",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nandanandan Mishra",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Raghaw Sharan Pandey",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Gopal Dikshit",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Amrendra Prasad Verma",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Manoj Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Managing Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Uttara Dasgupta",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Nominee Director",
+                "Start Date": "Unknown"
+            }
+        }
+    ]
+}

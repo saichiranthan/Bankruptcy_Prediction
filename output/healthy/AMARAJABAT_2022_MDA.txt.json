@@ -1,0 +1,59 @@
+{
+    "summary": "The global economy made a strong comeback in 2021 with a growth rate of 6.1%. The Indian economy also witnessed a resurgence in FY21-22 with a growth rate of 8.7%. Amara Raja Batteries Limited, a leading player in the Indian automotive battery market, has a strong position in the market with a pan-India distribution network and exports to over 30 countries. The company has a comprehensive strategy to address the challenges and opportunities in the market. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Global economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Automotive battery",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Omicron variant",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Russia-Ukraine crisis",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Automotive battery",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global economy",
+            "target": "Indian economy",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Omicron variant",
+            "target": "Global economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "Russia-Ukraine crisis",
+            "target": "Global economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian economy",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

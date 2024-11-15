@@ -1,0 +1,82 @@
+{
+    "summary": "The company's growth was affected by many factors like volatility in commodity prices, exchange cost, higher interest cost, etc. The uncertain macro-economic environment also affected the company, especially in the power sector. Despite the challenges, the company's subsidiaries have shown positive and satisfactory turnover. The company has also made inroads in a number of export markets and has raised paid up capital through a fund raising exercise. However, the company's financial position is critical due to high project cost and delay in payments, and the company is taking efforts to improve margins by increasing efficiency and selecting orders with good margins.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Electrical Distribution Solutions Pty Limited (EDS)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Energex Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ERL India",
+            "target": "Electrical Distribution Solutions Pty Limited (EDS)",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "82%",
+                "Acquisition Date": "July 2013"
+            }
+        },
+        {
+            "source": "ERL India",
+            "target": "ERL Switchcraft Europe GmbH",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0"
+            }
+        },
+        {
+            "source": "ERL India",
+            "target": "Energex Limited",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Ring Main Units",
+                "Production Start Date": "2013"
+            }
+        },
+        {
+            "source": "Uncertain macro-economic environment",
+            "target": "ERL India",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Volatility in commodity prices, exchange cost, higher interest cost"
+            }
+        },
+        {
+            "source": "Poor financial position of electrical utilities",
+            "target": "ERL India",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Higher receivables, cost over runs and higher finance cost"
+            }
+        },
+        {
+            "source": "Fund raising exercise",
+            "target": "ERL India",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Raised paid up capital by way of allotting Equity Shares"
+            }
+        }
+    ]
+}

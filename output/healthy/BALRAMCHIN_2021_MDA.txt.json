@@ -1,0 +1,77 @@
+{
+    "summary": "The Indian economy was severely impacted by the COVID-19 pandemic, resulting in a contraction of 7.3% in 2020-21. However, the economy showed signs of recovery in the later part of the year, with the GDP growing by 0.4% in the October-December 2020 period. The government implemented various reforms to revive investor sentiment and attract investments in key sectors. The sugar industry in India was also affected by the pandemic, but the government's support to farmers and the industry's efforts to increase production helped to mitigate the impact. The company, Balrampur Chini Mills Limited, is expected to benefit from the government's policies and the industry's growth prospects. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global economy",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.5",
+                "impact_type": "Financial",
+                "reason": "Pandemic-induced lockdown and supply chain disruptions"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "30.8 million tonnes",
+                "production_start_date": "2020-21"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Global economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "Pandemic-induced lockdown and supply chain disruptions"
+            }
+        },
+        {
+            "source": "India",
+            "target": "COVID-19 pandemic",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Affected country",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "Global economy",
+            "target": "COVID-19 pandemic",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "-0.8",
+                "mention_count": "5"
+            }
+        }
+    ]
+}

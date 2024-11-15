@@ -1,0 +1,105 @@
+{
+    "summary": "The company's performance was affected by a subdued business environment. The company has mitigation strategies in place to address risks emanating from prevailing economic uncertainties and volatility in the business environment. The company's Sitarganj plant was closed by order of the National Green Tribunal, affecting domestic and export business. The company continues to invest in the future on products that would improve market share in the longer term. The company's bankruptcy level is 0.6 due to its critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "ANG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Green Tribunal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Chinese economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global economic recovery",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Commercial Vehicle Industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Automotive Components",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG",
+            "target": "National Green Tribunal",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Indian Government",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Commercial Vehicle Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015-16"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Automotive Components",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "500",
+                "Production Start Date": "2015-16"
+            }
+        },
+        {
+            "source": "Chinese economy",
+            "target": "ANG",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Global economic recovery",
+            "target": "ANG",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "ANG",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "summary": "The Indian sugar industry is one of the largest contributors to the Indian economy, with five crore farmers and their families directly dependent on the sector. The sector earned forex worth USD 5,000 million in the last five years. However, the industry is facing challenges such as drought-like conditions in key geographies, poor rainfall, and water availability for irrigation, which led to a fall in sugar production and correspondingly drove prices to ~C36,000 per metric tonne in August 2016. The Central Government has announced a raw sugar import quota of 5.0 lac tonnes to address regional imbalances. The company, Balrampur Chini Mills Limited, has reported steady sugar realisations over the near-term, given the supply position. The company's sugar segment constituted the largest share of the Company's revenues, contributing 83.46% of the Company's turnover during the year under review. The company's future prospects are positive, with the company expected to continue to optimise energy use and enhance process efficiencies.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Indian sugar industry",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Drought",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ethanol",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Indian sugar industry",
+            "target": "Drought",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.8,
+                "impact_type": "Financial",
+                "reason": "Drought-like conditions in key geographies led to a fall in sugar production"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": 3.03871,
+                "production_start_date": "2016-17"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Ethanol",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": 326.76,
+                "production_start_date": "2016-17"
+            }
+        },
+        {
+            "source": "Drought",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.5,
+                "impact_type": "Financial",
+                "reason": "Drought-like conditions led to a fall in sugar production"
+            }
+        }
+    ]
+}

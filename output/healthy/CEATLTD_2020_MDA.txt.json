@@ -1,0 +1,67 @@
+{
+    "summary": "Outlook India entered FY 21 with a projected GDP decline of 4.5% for the year 2020. The global automobile industry witnessed production cuts and decline in sales. The Indian auto industry also witnessed a decline in production and sales. Despite the decline, the industry is expected to recover in the medium to long term. CEAT Limited, an Indian tyre manufacturer, is working closely with distributors to understand the latest developments and act on business opportunities. The company is also investing in R&D to develop tyres for electric vehicles. The bankruptcy level of CEAT Limited is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "CEAT Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Automobile Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Automobile Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tyres",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "CEAT Limited",
+            "target": "Tyres",
+            "relation": "PRODUCES",
+            "production_volume": "3.2 Billion Units",
+            "production_start_date": "2019"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Global Automobile Industry",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.8",
+            "impact_type": "Financial",
+            "reason": "production cuts and decline in sales"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Indian Automobile Industry",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.7",
+            "impact_type": "Financial",
+            "reason": "decline in production and sales"
+        },
+        {
+            "source": "Global Automobile Industry",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.5",
+            "mention_count": "5"
+        },
+        {
+            "source": "Indian Automobile Industry",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.5",
+            "mention_count": "5"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "summary": "Avanti Feeds Limited is a pioneer in the Indian shrimp industry with over 25 years of experience. The company has a strong dealership network and provides technical assistance to farmers. However, the industry is facing challenges such as inadequate infrastructure facilities, volatility of international prices, and disease outbreaks. Despite these challenges, the company is expected to grow at a CAGR of 5% with a sustainable margin of about 10%. The company has invested in power projects and has reported a turnover of `1,138.80 lakhs and a loss of `210.97 lakhs after charging interest and depreciation. The company has repaid its term loan of `7506 lakhs and is debt-free.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Avanti Feeds Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GOAL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Thai Union Group",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GAIL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Srivathsa Power Projects Private Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Patikari Power Private Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Shrimp Production",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Aquaculture Production",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Shrimp Production",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "6,20,000 MTs",
+                "Production Start Date": "2018"
+            }
+        },
+        {
+            "source": "Global Aquaculture Production",
+            "target": "Avanti Feeds Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Srivathsa Power Projects Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "49.99%",
+                "Acquisition Date": "2018-19"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Patikari Power Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "25.88%",
+                "Acquisition Date": "2018-19"
+            }
+        },
+        {
+            "source": "Global Aquaculture Production",
+            "target": "Avanti Feeds Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Growth in shrimp consumption"
+            }
+        },
+        {
+            "source": "Natural Calamities",
+            "target": "Avanti Feeds Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Financial",
+                "Reason": "Floods and cyclones"
+            }
+        }
+    ]
+}

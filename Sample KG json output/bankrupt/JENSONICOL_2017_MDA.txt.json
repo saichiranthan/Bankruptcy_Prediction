@@ -1,0 +1,127 @@
+{
+    "summary": "JENSON AND NICHOLSON (INDIA) LIMITED's financial year 2016-17 was marked with both excitement and challenges. The company's financial performance was affected by the demonetization of the Indian government, which led to a cash shortage and payment disruptions. The company's net worth has eroded, and it has no funds to repay its loans or interest. However, the company is at an advanced stage of negotiation with Vivid Colors Pvt. Ltd. for entering into an agreement to assign its loan and quantify the amount payable. The company's future prospects are uncertain, and its bankruptcy level is 0.6.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vivid Colors Pvt. Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "B.C. Srivastava",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Joginder Batra",
+            "type": "PERSON"
+        },
+        {
+            "entity": "N.M.Sahai",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Spandan Sengupta",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST regime",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "B.C. Srivastava",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Managing Director",
+                "Start Date": "N/A"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Joginder Batra",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "CFO",
+                "Start Date": "N/A"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "N.M.Sahai",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Audit Committee Chairman",
+                "Start Date": "N/A"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Spandan Sengupta",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Statutory Auditor",
+                "Start Date": "N/A"
+            }
+        },
+        {
+            "source": "Indian Government",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "GST regime",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Demonetization",
+            "target": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "GST regime",
+            "target": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "summary": "The global economy has slowed down, with a GDP growth rate of 3.1% in 2016. India's economy has also been affected, with a GDP growth rate of 6.5% in 2016-17, down from 7.9% in the previous year. Amara Raja Batteries Limited has performed well in the automotive battery division, with a revenue contribution of 60% in FY17. The company has also strengthened its presence in the global market, with exports increasing by 48% over the previous year. However, the company faces challenges such as rising bad loans and heightened corporate vulnerabilities in certain key sectors of the economy.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Automotive Battery",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Lead-acid Batteries",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Automotive Battery",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "10.5 Mn",
+                "Production Start Date": "2000"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Global Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Lead-acid Batteries",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "60%",
+                "Production Start Date": "2000"
+            }
+        },
+        {
+            "source": "Global Economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Global economic slowdown"
+            }
+        }
+    ]
+}

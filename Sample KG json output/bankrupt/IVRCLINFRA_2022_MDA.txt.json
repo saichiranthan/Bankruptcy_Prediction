@@ -1,0 +1,58 @@
+{
+    "summary": "IVRCL Technical Services & Solutions is a company that has been under liquidation as a going concern during the fiscal 2021-22. The company has not received any new contracts during this period and is focused on completing the existing projects. The company has a prolonged period of liquidation as going concern process and is looking forward to a successful completion of the sale process and new management taking over. The company's future outlook is positive due to the government's target investment of over Rs. 100 Lac Crore in Infrastructure Industry by 2025.",
+    "bankruptcy_level": {
+        "lvl": "0.4"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL Technical Services & Solutions",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 Pandemic",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "COVID-19 Pandemic",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "India",
+            "target": "IVRCL Technical Services & Solutions",
+            "relation": "OWNED_BY",
+            "properties": {
+                "Ownership Percentage": "0",
+                "Acquisition Date": "N/A"
+            }
+        },
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "Infrastructure Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "N/A",
+                "Production Start Date": "N/A"
+            }
+        },
+        {
+            "source": "COVID-19 Pandemic",
+            "target": "IVRCL Technical Services & Solutions",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

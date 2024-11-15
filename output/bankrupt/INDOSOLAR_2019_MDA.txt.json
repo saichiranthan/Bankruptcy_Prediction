@@ -1,0 +1,96 @@
+{
+    "summary": "The company was consistently running into losses and had shut down its production facilities due to extremely adverse market conditions. Insolvency proceedings against the company have begun, and the power of the Board of Directors stands suspended. The company's management consists of the Board of Directors and senior executives, who are required to discuss and analyze the company's financial performance, operational performance, and future outlook. However, due to the resignation of all Independent Directors and the suspension of the Board, the Management Discussion and Analysis Report could not be presented. The company's bankruptcy level is 0.8, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "National Company Law Tribunal (NCLT)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Committee of Creditors(COC)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Insolvency Proceedings",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Corporate Insolvency Proceeding",
+            "type": "EVENT"
+        },
+        {
+            "entity": "The Company",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Lenders/Financial Institutions",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Gulshan Gaba",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Gautam Singh Kuthari",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vidyut Manubhai Vora",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vinati Dev",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "The Company",
+            "target": "Insolvency Proceedings",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Lenders/Financial Institutions",
+            "target": "Insolvency Proceedings",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "National Company Law Tribunal (NCLT)",
+            "target": "Insolvency Proceedings",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Committee of Creditors(COC)",
+            "target": "Gulshan Gaba",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100",
+                "Acquisition Date": "2019-04-16"
+            }
+        },
+        {
+            "source": "Insolvency Proceedings",
+            "target": "The Company",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Due to extremely adverse market conditions"
+            }
+        }
+    ]
+}

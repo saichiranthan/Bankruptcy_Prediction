@@ -1,0 +1,89 @@
+{
+    "summary": "Balrampur Chini Mills Limited is a leading sugar mill in India with substantial interests in sugar, ethanol, and power co-generation. The company has a strong operational capability and has been able to generate more from less. The company's bankruptcy level is -1, indicating a healthy company. The global sugar market size reached 177.3 million tonnes in 2022 and is expected to grow at a CAGR of 1.64% during 2023-2028. India's sugar production is expected to decline by 10.1% in 2022-23 due to yield impact in Maharashtra and Karnataka. The company's future prospects are positive, with the government's initiatives to ensure price stability in the sugar sector and promote ethanol production.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Sugar Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Sugar Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ethanol Production",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Sugar Export Policy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Global Sugar Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Ethanol Production",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "40 lakhs tonnes",
+                "Production Start Date": "2022-23"
+            }
+        },
+        {
+            "source": "Global Sugar Market",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian Sugar Industry",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Sugar Export Policy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Sugar Export Policy",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Price stability in the sugar sector"
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "summary": "The global economy has been severely impacted by the COVID-19 pandemic, with a global recession and widespread job losses. However, India has shown resilience and is expected to emerge as the world's fastest-growing major economy. The global enzymes market is also expected to grow, driven by increasing demand for medicinal drugs and research activities. Advanced Enzyme Technologies Limited is a company that produces enzymes for various applications, including human healthcare and animal nutrition. The company's products have seen increased demand due to the pandemic, particularly in the digestive supplements market.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Advanced Enzyme Technologies Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Enzymes Market",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Digestive Enzymes Market",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Feed Enzymes Market",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Global Economy",
+            "target": "COVID-19",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": 0.8,
+                "Impact Type": "Financial",
+                "Reason": "Global recession and widespread job losses"
+            }
+        },
+        {
+            "source": "India",
+            "target": "COVID-19",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": 0.2,
+                "Impact Type": "Financial",
+                "Reason": "Resilience and growth despite pandemic"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Digestive Enzymes Market",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": 1000,
+                "Production Start Date": "2020-01-01"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Feed Enzymes Market",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": 500,
+                "Production Start Date": "2020-06-01"
+            }
+        },
+        {
+            "source": "COVID-19",
+            "target": "Global Enzymes Market",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": 0.5,
+                "Mention Count": 5
+            }
+        },
+        {
+            "source": "COVID-19",
+            "target": "Digestive Enzymes Market",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": 0.8,
+                "Mention Count": 3
+            }
+        }
+    ]
+}

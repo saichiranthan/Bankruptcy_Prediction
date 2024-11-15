@@ -1,0 +1,50 @@
+{
+    "summary": "The company, 21EMPEE DISTILLERIES LIMITED, is facing challenges in the IMFL market due to government regulations, rising input costs, and uncontrollable difficulties. Despite this, the company has introduced new premium brands and is planning to expand its business through exports. The company's financial performance and outlook are furnished in the Directors' Report. The company's bankruptcy level is 0.6 due to the negative sentiment of the text.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "21EMPEE DISTILLERIES LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IMFL market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Blue Crystal Vodka",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "IMFL market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "Blue Crystal Vodka",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "42,85,502 cases",
+                "Production Start Date": "2016"
+            }
+        },
+        {
+            "source": "IMFL market",
+            "target": "21EMPEE DISTILLERIES LIMITED",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Government regulations and rising input costs"
+            }
+        }
+    ]
+}

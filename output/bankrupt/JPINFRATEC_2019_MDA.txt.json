@@ -1,0 +1,98 @@
+{
+    "summary": "Jaypee Infratech Limited is undergoing Corporate Insolvency Resolution Process (CIRP) under the provisions of the Insolvency and Bankruptcy Code, 2016. The company's financial performance has been affected due to the CIRP process. The company's debt equity ratio has increased to 10.46 in 2018-19 from 3.24 in 2017-18. The company's net profit margin has also decreased to -1.11 in 2018-19 from -0.55 in 2017-18. The company's bankruptcy level is 0.8 due to its high debt and low profitability.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Corporate Insolvency Resolution Process",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Yamuna Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Jaypee Healthcare Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Knight Frank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IDBI Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Company Law Tribunal",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Supreme Court of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Corporate Insolvency Resolution Process",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0.5"
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Yamuna Expressway",
+            "relation": "PRODUCES",
+            "production_volume": "32799",
+            "production_start_date": "2012-08-16"
+        },
+        {
+            "source": "Corporate Insolvency Resolution Process",
+            "target": "Jaypee Infratech Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.8",
+            "impact_type": "Financial",
+            "reason": "High debt and low profitability"
+        },
+        {
+            "source": "Jaypee Healthcare Ltd",
+            "target": "Jaypee Infratech Limited",
+            "relation": "OWNS",
+            "ownership_percentage": "100",
+            "acquisition_date": "N/A"
+        },
+        {
+            "source": "Knight Frank",
+            "target": "Jaypee Infratech Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.2",
+            "mention_count": "1"
+        },
+        {
+            "source": "IDBI Bank",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "market_overlap_percentage": "N/A"
+        },
+        {
+            "source": "National Company Law Tribunal",
+            "target": "Jaypee Infratech Limited",
+            "relation": "PARTICIPATES_IN",
+            "role": "Organizer",
+            "effect": "1"
+        },
+        {
+            "source": "Supreme Court of India",
+            "target": "Jaypee Infratech Limited",
+            "relation": "PARTICIPATES_IN",
+            "role": "Organizer",
+            "effect": "1"
+        }
+    ]
+}

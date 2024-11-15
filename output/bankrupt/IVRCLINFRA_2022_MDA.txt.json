@@ -1,0 +1,67 @@
+{
+    "summary": "IVRCL Technical Services & Solutions is a company under liquidation as a going concern. The company has been severely affected by the COVID-19 pandemic, resulting in delayed project execution and a severe cash crunch. Despite this, the company is looking forward to completing its ongoing projects and exploring new opportunities in the emerging market. The company's future outlook is positive, with the government's target investment in the infrastructure industry expected to boost the civil and contracting sector. IVRCL has a prolonged period of liquidation as a going concern process and is looking forward to successful completion of the sale process and new management taking over the reins fully.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL Technical Services & Solutions",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 Pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Infrastructure Pipeline (NIP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Make in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Production-Linked Incentives (PLI) Scheme",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "COVID-19 Pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Delayed project execution and severe cash crunch"
+            }
+        },
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "National Infrastructure Pipeline (NIP)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "Make in India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "Production-Linked Incentives (PLI) Scheme",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

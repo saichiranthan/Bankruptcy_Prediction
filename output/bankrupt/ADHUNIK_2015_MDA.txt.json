@@ -1,0 +1,135 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in a specialized segment of the steel industry, producing special alloy steel, ferro alloys, iron billets, and rolled products. The company's performance has been marred due to the sharp decline in the performance of important customers. The Indian economy is on a path of gradual recovery, and the government has undertaken several steps to unplug the bottlenecks and revive business confidence. However, the steel sector is intrinsically linked with the economic growth of a nation and faces many headwinds, including uncorrelated steel prices with indigenous raw material prices and significant oversupply globally. Adhunik Metaliks Limited has put in place several building blocks to enhance operating efficiency, optimize costs, and shift to better product mix for higher value addition. The company's financial condition is closely monitored, and it has requested its lenders to restructure the loan liabilities through a package under the Corporate Debt Restructuring Scheme. The bankruptcy level of the company is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Corporate Debt Restructuring Scheme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Special alloy steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ferro alloys",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron billets",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rolled products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Indian economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Steel industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Corporate Debt Restructuring Scheme",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Special alloy steel",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ferro alloys",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "500",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Iron billets",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "2000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Rolled products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1500",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Decline in steel demand"
+            }
+        },
+        {
+            "source": "Steel industry",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Decline in steel demand"
+            }
+        },
+        {
+            "source": "Corporate Debt Restructuring Scheme",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Financial",
+                "Reason": "Restructuring of loan liabilities"
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "summary": "Ashapura Minechem Limited is facing a challenging economic environment with a decline in total income from operations and a net loss of ` 5,896.70 Lakhs at the Standalone Level and ` 1,732.94 Lakhs at the Consolidated Level. The company is exploring diverse prospects of expanding its business presence geographically and is focusing on development of value-added & speciality products. However, the company is also facing several hurdles such as inadequate infrastructural facilities, regulatory challenges, and corruption. The company's financial performance is not in favor, and it has been declared as a 'Sick Company' by the erstwhile Board for Industrial & Financial Reconstruction (BIFR).",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Ashapura Minechem Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Belt and Road initiatives",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Goods and Service Tax (GST)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ashapura Knowledge & Innovation Center",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bauxite",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bentonite",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Vande Mataram Museum Project",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Hiralaxmi Memorial Craft Park",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Board for Industrial & Financial Reconstruction (BIFR)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Company Law Tribunal",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Belt and Road initiatives",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Goods and Service Tax (GST)",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Ashapura Knowledge & Innovation Center",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bauxite",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bentonite",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Vande Mataram Museum Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Hiralaxmi Memorial Craft Park",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Board for Industrial & Financial Reconstruction (BIFR)",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "National Company Law Tribunal",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

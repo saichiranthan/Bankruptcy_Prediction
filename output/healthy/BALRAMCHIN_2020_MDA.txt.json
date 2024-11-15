@@ -1,0 +1,86 @@
+{
+    "summary": "The global economy experienced a slowdown in 2019, with the Indian economy growing at an 11-year low of 4.2% in FY2019-20. The sugar industry also faced challenges, with global sugar production estimated to fall to around 175.1 million tonnes. However, the Indian government introduced initiatives to support the industry, including a reduction in corporate tax rates and an increase in the minimum selling price of sugar. Despite these challenges, Balrampur Chini Mills Limited reported revenues of C4513.11 crore in 2019-20, with sugar accounting for 77.78% of overall revenues. The company's bankruptcy level is -1, indicating a healthy financial status.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ethanol",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "457 sugar mills",
+                "Production Start Date": "2019-20"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Ethanol",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "5.6% of the ethanol blending",
+                "Production Start Date": "2019-20"
+            }
+        },
+        {
+            "source": "Global economy",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Slowdown in global economic activity"
+            }
+        },
+        {
+            "source": "Indian government",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Supporter",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.3",
+                "Impact Type": "Financial",
+                "Reason": "Slowdown in Indian economic activity"
+            }
+        },
+        {
+            "source": "Sugar",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "10"
+            }
+        }
+    ]
+}

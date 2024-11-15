@@ -1,0 +1,106 @@
+{
+    "summary": "Jaihind Projects Limited is an Indian EPC company with over 50 years of experience in the sector. The company has performed well despite the challenging market conditions and has a strong order book. The company is expecting numerous opportunities in the infrastructure sector and is well-positioned to take advantage of them. However, the company also faces various risks such as business, market, financial, and political risks. The company has a global outlook and is focused on projects in emerging economies. The management is optimistic about the company's future prospects and is taking steps to mitigate the risks. The bankruptcy level of the company is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Jaihind Projects Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Prakash L. Hinduja",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Infrastructure Development",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetisation",
+            "type": "EVENT"
+        },
+        {
+            "entity": "RERA",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Insolvency & Bankruptcy Code",
+            "type": "EVENT"
+        },
+        {
+            "entity": "EPC Sector",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Prakash L. Hinduja",
+            "relation": "employs"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Infrastructure Development",
+            "relation": "participates_in"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "GST",
+            "relation": "participates_in"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Demonetisation",
+            "relation": "participates_in"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "RERA",
+            "relation": "participates_in"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Insolvency & Bankruptcy Code",
+            "relation": "participates_in"
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "EPC Sector",
+            "relation": "produces"
+        },
+        {
+            "source": "Infrastructure Development",
+            "target": "Jaihind Projects Limited",
+            "relation": "mentions"
+        },
+        {
+            "source": "GST",
+            "target": "Jaihind Projects Limited",
+            "relation": "mentions"
+        },
+        {
+            "source": "Demonetisation",
+            "target": "Jaihind Projects Limited",
+            "relation": "mentions"
+        },
+        {
+            "source": "RERA",
+            "target": "Jaihind Projects Limited",
+            "relation": "mentions"
+        },
+        {
+            "source": "Insolvency & Bankruptcy Code",
+            "target": "Jaihind Projects Limited",
+            "relation": "mentions"
+        }
+    ]
+}

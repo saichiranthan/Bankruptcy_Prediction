@@ -1,0 +1,106 @@
+{
+    "summary": "Alembic Pharmaceuticals Limited has reported a revenue growth of 14% in FY19, with its US generics business growing better than expected and its domestic branded business growing in line with the industry growth. The company has invested in capacity building initiatives and has a strong product pipeline for the US market. However, the company faces challenges such as competition intensifying, risks arising out of currency movements, regulatory changes and geo-political events. The company's long-term focus is to build a stronger product pipeline for the US market and to maintain product efficiency. The company's bankruptcy level is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Alembic Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "International generics business",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Domestic branded business",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US generics business",
+            "type": "EVENT"
+        },
+        {
+            "entity": "ANDA",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "DMF",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "International generics business",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Domestic branded business",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "US generics business",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "ANDA",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "100",
+                "Production Start Date": "2018-01-01"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "DMF",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "100",
+                "Production Start Date": "2018-01-01"
+            }
+        },
+        {
+            "source": "International generics business",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Domestic branded business",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "US generics business",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        }
+    ]
+}

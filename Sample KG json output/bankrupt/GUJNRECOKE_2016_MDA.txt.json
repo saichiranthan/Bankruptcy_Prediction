@@ -1,0 +1,151 @@
+{
+    "summary": "The global economy is facing a downturn, but India is seen as a bright spot. Gujarat NRE Coke Limited is a company that operates in the met coke industry, which has been affected by the global downturn. However, the company expects a revival in the industry due to increased demand from the steel sector. The company's financial performance has been affected by the downturn, but it is expected to improve in the coming quarters. The company's management is focused on developing its talent pool and improving its internal control systems.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Gujarat NRE Coke Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Arun Kumar Jagatramka",
+            "type": "PERSON"
+        },
+        {
+            "entity": "IMF",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "OECD",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Euro Zone",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UK",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Met Coke",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Coking Coal",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron Ore",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Metallurgical Coke",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Economic Downturn",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Brexit",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Arun Kumar Jagatramka",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "IMF",
+            "target": "Global Economic Downturn",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "World Bank",
+            "target": "Global Economic Downturn",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "OECD",
+            "target": "Global Economic Downturn",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "China",
+            "target": "Global Steel Industry",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "India",
+            "target": "Global Steel Industry",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Met Coke",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Steel",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Coking Coal",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Iron Ore",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Metallurgical Coke",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global Steel Industry",
+            "target": "Global Economic Downturn",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Brexit",
+            "target": "Global Economic Downturn",
+            "relation": "MENTIONS"
+        }
+    ]
+}

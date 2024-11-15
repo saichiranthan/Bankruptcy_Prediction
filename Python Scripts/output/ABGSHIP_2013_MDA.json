@@ -1,0 +1,53 @@
+{
+    "summary": "ABG Shipyard Limited's annual report for 2012-2013 highlights the company's compliance with corporate governance. The report also discusses the market trends and economy, industry overview, and outlook. The Indian shipbuilding industry is expected to grow at a CAGR of 8% and reach ` 9,200 crore by 2015. However, the industry faces challenges such as high equipment costs and lack of economies of scale. The company's financial status and future prospects are not explicitly mentioned in the report. Based on the overall sentiment of the report, the company's bankruptcy level is estimated to be around 0.2.",
+    "bankruptcy_level": {
+        "level": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ABG Shipyard Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Shipbuilding Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shipbuilding and Ship Repair Industry",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Indian Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Global Shipbuilding Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Shipbuilding and Ship Repair Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "20 ships per year",
+                "Production Start Date": "Not mentioned"
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "summary": "The company's financial performance and outlook are furnished in the Directors' Report. The liquor industry in India is highly Government regulated, and the company faces challenges such as rising input costs and restrictive measures. The company has an internal control system in place, and the Audit Committee and the Board review the findings of the Internal Auditors Report. The company's bankruptcy level is 0.4, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.4"
+    },
+    "entities": [
+        {
+            "entity": "The Company",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "TNEB",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Audit Committee",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Board",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Internal Auditors",
+            "type": "PERSON"
+        },
+        {
+            "entity": "IMFL",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Liquor Industry in India",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "The Company",
+            "target": "IMFL",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": 4188182,
+                "Production Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "The Company",
+            "target": "Liquor Industry in India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "The Company",
+            "target": "TNEB",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Audit Committee",
+            "target": "The Company",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Audit Committee",
+                "Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "Board",
+            "target": "The Company",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Board",
+                "Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "Internal Auditors",
+            "target": "The Company",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Internal Auditors",
+                "Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "Liquor Industry in India",
+            "target": "The Company",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": 5
+            }
+        }
+    ]
+}

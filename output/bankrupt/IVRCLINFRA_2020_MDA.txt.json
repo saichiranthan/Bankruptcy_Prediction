@@ -1,0 +1,92 @@
+{
+    "summary": "IVRCL is a company that provides infrastructure development services in India. The company has completed various projects in the water, irrigation, buildings, industrial structures, power, transportation, and mining sectors. However, the company is currently undergoing liquidation as a going concern due to severe cash crunch and failure of Corporate Insolvency Resolution Process (CIRP). Despite this, the company is awaiting successful completion and revival. The government's target of becoming a $5 trillion economy by 2025 has made the environment for civil and contracting companies more prospective and encouraging.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "CIRP",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Liquidation",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Infrastructure Pipeline (NIP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Chambal-Dholpur-Bharathpur Water Supply Project",
+            "type": "EVENT"
+        },
+        {
+            "entity": "All India Institute of Medical Sciences (AIIMS)-Bhubaneswar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "National Institute of Biomedical Genomics (NIBMG)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Malanjkhand Underground Project",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL",
+            "target": "CIRP",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL",
+            "target": "Liquidation",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL",
+            "target": "National Infrastructure Pipeline (NIP)",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "IVRCL",
+            "target": "Chambal-Dholpur-Bharathpur Water Supply Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL",
+            "target": "All India Institute of Medical Sciences (AIIMS)-Bhubaneswar",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL",
+            "target": "National Institute of Biomedical Genomics (NIBMG)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "IVRCL",
+            "target": "Malanjkhand Underground Project",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "CIRP",
+            "target": "IVRCL",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "Liquidation",
+            "target": "IVRCL",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "National Infrastructure Pipeline (NIP)",
+            "target": "IVRCL",
+            "relation": "MENTIONS"
+        }
+    ]
+}

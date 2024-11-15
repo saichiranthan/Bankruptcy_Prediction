@@ -1,0 +1,196 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in the steel industry, producing special alloy steel, ferro alloys, iron billets, and rolled products. The company's performance has been marred due to the sharp decline in the performance of important customers. The Indian economy is on a path of gradual recovery, but the steel sector faces challenges such as uncorrelated steel prices with indigenous raw material prices. Adhunik has put in place several building blocks to enhance operating efficiency and mitigate short-term challenges. The company's financial performance has been affected by the decline in revenue, leading to an operating loss. However, the company has implemented a Corporate Debt Restructuring Scheme, which is expected to have a positive impact on its financial viability.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Shri Ghanshyam Das Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Jugal Kishore Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Nirmal Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Mohan Lal Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Mahesh Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Nihar Ranjan Hota",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Dr. Ramgopal Agarwala",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Nandanandan Mishra",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Raghaw Sharan Pandey",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Gopal Dikshit",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Amrendra Prasad Verma",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Shri Manoj Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Smt. Uttara Dasgupta",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Orissa Manganese & Minerals Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Ghanshyam Das Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Chairman",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Jugal Kishore Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Nirmal Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Mohan Lal Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Mahesh Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Nihar Ranjan Hota",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Dr. Ramgopal Agarwala",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Nandanandan Mishra",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Raghaw Sharan Pandey",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Gopal Dikshit",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Amrendra Prasad Verma",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Shri Manoj Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Managing Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Smt. Uttara Dasgupta",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Nominee Director",
+                "Start Date": "Unknown"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Orissa Manganese & Minerals Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "Unknown"
+            }
+        }
+    ]
+}

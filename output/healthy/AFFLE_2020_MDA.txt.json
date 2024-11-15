@@ -1,0 +1,67 @@
+{
+    "summary": "Affle (India) Limited is a digital advertising company that operates two business platforms: Consumer Platform and Enterprise Platform. The company's revenue consists of revenue from contracts with customers and other income. The company reported total revenue of Rs. 3,398.71 million, a y-o-y increase of 36.1% and Revenue from contracts with customers of Rs. 3,337.83 million, a y-o-y increase of 33.8%. The company's financial status is healthy, with a return on net worth of 28.6% and a return on capital employed of 27.7%. The company's future prospects are positive, with a growing demand for digital advertising and a strong presence in the Indian market.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Affle (India) Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Digital Advertising",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Mobile Apps",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Affle (India) Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Affle (India) Limited",
+            "target": "Digital Advertising",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Rs. 3,337.83 million",
+                "Production Start Date": "FY2019-20"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Global Economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Global economic growth decelerated in 2019 with continued weakness in global trade and investment."
+            }
+        },
+        {
+            "source": "Affle (India) Limited",
+            "target": "Mobile Apps",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Rs. 2,965 million",
+                "Production Start Date": "FY2019-20"
+            }
+        }
+    ]
+}

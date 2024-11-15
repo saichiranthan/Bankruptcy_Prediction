@@ -1,0 +1,81 @@
+{
+    "summary": "The company's performance has been affected by a subdued business environment. The company has lost major contracts due to disputes with customers, and the implementation of BS IV emission norms has impacted the business. The company is trying to revive its business relations and has mitigation strategies in place to address risks. However, the company's financial status is critical, and its future prospects are uncertain.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ANG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ashok Leyland Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BHEL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BS III Vs BS IV",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Economy Recovery",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tippers",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG",
+            "target": "BS III Vs BS IV",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Global Economy Recovery",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.2"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Tippers",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "60-70%",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "BS III Vs BS IV",
+            "target": "ANG",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Implementation of BS IV emission norms"
+            }
+        },
+        {
+            "source": "Global Economy Recovery",
+            "target": "ANG",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Financial",
+                "Reason": "Subdued business environment"
+            }
+        }
+    ]
+}

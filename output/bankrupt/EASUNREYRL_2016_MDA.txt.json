@@ -1,0 +1,73 @@
+{
+    "summary": "Easun Reyrolle Limited (ERL) is facing financial difficulties due to slow collection from projects and government sector undertakings, affecting its working capital cycle and leading to a net loss of Rs.4,487.38 Lacs. However, the company is optimistic about the future due to the government's initiatives to energize the power sector, such as the UDAY scheme and amendments in National Tariff Policy. ERL is dedicated to developing customer-oriented power solutions and is focused on improving the performance and efficiency of its existing products. The company has a significant presence in the field of Power Protection & Automation in India and abroad, and is expected to see sustained and productive improvement in the current financial year.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UDAY Scheme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Tariff Policy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Power Protection & Automation",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "UDAY Scheme",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "National Tariff Policy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Power Protection & Automation",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015-01-01"
+            }
+        },
+        {
+            "source": "UDAY Scheme",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Improved operational efficiency and reduced power purchase costs"
+            }
+        },
+        {
+            "source": "National Tariff Policy",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Improved operational efficiency and reduced power purchase costs"
+            }
+        }
+    ]
+}

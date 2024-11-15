@@ -1,0 +1,193 @@
+{
+    "summary": "ANG Industries Ltd, a leading manufacturer of Heavy Steel Fabrication, Boiler Support Structures, Columns, Beams, Girders, General Fabrication, Trailers and Containers, and Manufacturer & Exporter of Trailer components and Air Brake Components, has been affected by the global economic downturn. The company has suffered a loss of Rs. 1270.41 Lacs and has been mitigating the risk by enhancing network coverage and adding new products. The company has an established Enterprise Risk Management function that engages with all the functions for risk assessment and validates the risk mitigation status regularly.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "ANG Industries Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Downturn",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Heavy Steel Fabrication",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Boiler Support Structures",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Columns",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Beams",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Girders",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "General Fabrication",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Trailers",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Containers",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Trailer components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Air Brake Components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "NTPC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BGR",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Global Economic Downturn",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Heavy Steel Fabrication",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "700 MT",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Boiler Support Structures",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Columns",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Beams",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Girders",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "General Fabrication",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Trailers",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Containers",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Trailer components",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd",
+            "target": "Air Brake Components",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Global Economic Downturn",
+            "target": "ANG Industries Ltd",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.7",
+                "Impact Type": "Financial",
+                "Reason": "Loss of Rs. 1270.41 Lacs"
+            }
+        },
+        {
+            "source": "NTPC",
+            "target": "ANG Industries Ltd",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "BGR",
+            "target": "ANG Industries Ltd",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

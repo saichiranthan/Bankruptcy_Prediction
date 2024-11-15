@@ -1,0 +1,92 @@
+{
+    "summary": "The company was consistently running into losses and had shut down its production facilities w.e.f. 15th May, 2018. Insolvency proceedings against the company began in October 2018 and the company's power was suspended as per IBC code. The company's management is required to discuss, analyse and provide commentary on financial performance, operational performance, systems and controls, compliance with laws and regulations, and actions it has planned or has taken to address any challenges the company is facing.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "Company",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Gulshan Gaba",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Gautam Singh Kuthari",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Vidyut Manubhai Vora",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Vinati Dev",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Insolvency Proceedings",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Company Law Tribunal (NCLT)",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Company",
+            "target": "Gulshan Gaba",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Interim Resolution Professional(IRP)",
+                "Start Date": "12th April, 2019"
+            }
+        },
+        {
+            "source": "Company",
+            "target": "Insolvency Proceedings",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-1"
+            }
+        },
+        {
+            "source": "National Company Law Tribunal (NCLT)",
+            "target": "Insolvency Proceedings",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "1"
+            }
+        },
+        {
+            "source": "Company",
+            "target": "Gautam Singh Kuthari",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Before 26th November 2018"
+            }
+        },
+        {
+            "source": "Company",
+            "target": "Vidyut Manubhai Vora",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Before 26th November 2018"
+            }
+        },
+        {
+            "source": "Company",
+            "target": "Vinati Dev",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": "Before 26th November 2018"
+            }
+        }
+    ]
+}

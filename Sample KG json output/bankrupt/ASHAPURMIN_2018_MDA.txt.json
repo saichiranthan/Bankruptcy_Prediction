@@ -1,0 +1,56 @@
+{
+    "summary": "Ashapura Minechem Limited has been focusing on development of value-added products and specialty products to its mineral basket, which will help the Company to reduce its dependence on certain minerals and broaden its mineral portfolio. The Company is also exploring new geographical avenues and expanding its business activities in foreign countries. However, the Company has been facing some challenges such as adverse legislative decisions, regulatory policies, and competitiveness of other global suppliers. The Company's financial performance has been under par both in terms of revenues and margins at the Standalone and Consolidated level. The Company has reported a net loss for the year under review. Despite these challenges, the Company is optimistic about its future prospects and is taking steps to overcome these challenges.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Ashapura Minechem Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "International Monetary Fund (IMF)",
+            "type": "ORGANIZATION"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "ORGANIZATION"
+        },
+        {
+            "entity": "India",
+            "type": "COUNTRY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "India",
+            "relation": "OPERATES_IN"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "International Monetary Fund (IMF)",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Reserve Bank of India",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "bentonite",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "china clay",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "chamotte",
+            "relation": "PRODUCES"
+        }
+    ]
+}

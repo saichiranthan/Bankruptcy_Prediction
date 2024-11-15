@@ -1,0 +1,87 @@
+{
+    "summary": "Alembic Pharmaceuticals Limited is a pharmaceutical company with a strong financial profile, having generated more returns with fewer resources. The company has a successful track record of generating more returns, with fewer resources. The company's US generics business has grown considerably and the future outlook is promising. The company has a diversified portfolio of products across different dosage forms, branded, generic and the therapies they cater to. The company has also ventured into different international markets holding immense future potential. The company's financial performance enables it to generate growth capital, which is invested back in its plants, products, therapies and strategic partnerships. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Alembic Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "US Generics Business",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Azithromycin",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Venlafaxine",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rhizen Pharmaceuticals SA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "TG Therapeutics",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "US Generics Business",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Azithromycin",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Increased",
+                "Production Start Date": "2020"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Venlafaxine",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Increased",
+                "Production Start Date": "2019"
+            }
+        },
+        {
+            "source": "US Generics Business",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Rhizen Pharmaceuticals SA",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "50%",
+                "Acquisition Date": "2014"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "TG Therapeutics",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "20%"
+            }
+        }
+    ]
+}

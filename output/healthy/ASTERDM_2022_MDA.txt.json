@@ -1,0 +1,83 @@
+{
+    "summary": "The global economy has been severely impacted by the COVID-19 pandemic, with the IMF projecting a decline in global growth from 6.1% in 2021 to 3.6% in 2022 and 2023. The pandemic has also had a significant impact on the Indian economy, with the government implementing various measures to mitigate its effects. The global healthcare industry has shown resilience in the face of the pandemic, with a focus on innovation and transformation. Aster DM Healthcare Limited has been impacted by the pandemic, but has taken steps to adapt to the new normal. The company's bankruptcy level is estimated to be 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Aster DM Healthcare Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global healthcare industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "IMF",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "Decline in global growth and economic activities"
+            }
+        },
+        {
+            "source": "Global economy",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.9",
+                "impact_type": "Financial",
+                "reason": "Decline in global growth and economic activities"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.7",
+                "impact_type": "Financial",
+                "reason": "Decline in economic activities and growth"
+            }
+        },
+        {
+            "source": "Global healthcare industry",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.6",
+                "impact_type": "Financial",
+                "reason": "Decline in economic activities and growth"
+            }
+        },
+        {
+            "source": "IMF",
+            "target": "Global economy",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "-0.5",
+                "mention_count": "2"
+            }
+        }
+    ]
+}

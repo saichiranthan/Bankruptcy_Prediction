@@ -1,0 +1,122 @@
+{
+    "summary": "Easun Reyrolle Limited is a company in the electrical equipment industry, which has experienced sustained growth momentum with a growth rate of approximately 14%. The overall outlook for the industry future continues to be healthy. The company's strategy is to invest in acquiring and strengthening high technology companies and establishing significant R&D facilities in India. The company's operations have grown satisfactorily both in terms of sales and profits, and the company expects to grow significantly during the year 2011-12. The company's international operations continue to gain strengths, and the company has initiated major investments in manufacturing and backward integration. Based on the sentiment of the company's financial status and future prospects, the bankruptcy level is -1.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Russia",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "African market",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Canada",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Germany",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Western Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Eastern Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERLPhase",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERLMINT",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "India",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "USA",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Europe",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Russia",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "African market",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Canada",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Germany",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Western Europe",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Eastern Europe",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "ERLPhase",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "ERLMINT",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Switchcraft Europe GmbH",
+            "relation": "OWNS"
+        }
+    ]
+}

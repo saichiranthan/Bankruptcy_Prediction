@@ -1,0 +1,62 @@
+{
+    "summary": "The global economy is recovering, but the momentum is constrained due to the pandemic and uncertainties surrounding this global health scare. The global growth projection for 2021 is pegged at 5.9% and 4.9% for 2022. Alembic Pharmaceuticals Limited has established a strong presence in the pharmaceutical space, with a growth momentum in the coming years. The company has a strong, net debt-free balance sheet and focuses on efficient capital allocation. The company's business model is built on the foundation of patience and perseverance of the team to create growth levers for the future.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Alembic Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Pharmaceuticals",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Pharmaceuticals",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "100 APIs",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Global economy",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

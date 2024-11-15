@@ -1,0 +1,54 @@
+{
+    "summary": "Easun Reyrolle Limited is a company that operates in the electrical equipment industry. The company has experienced sustained growth momentum with a growth rate of approximately 14% during the year 2010-11. The company's Indian operations have grown satisfactorily both in terms of sales and profits. The company's international operations continue to gain strengths, and the company expects to grow significantly during the year 2011-12. The company has initiated major investments in manufacturing and backward integration to counter the pressures on the margins and to cater to the expected growth in global demand. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Electrical Equipment Industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Market",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Electrical Equipment Industry",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Global Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Global Market",
+            "target": "Easun Reyrolle Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Electrical Equipment Industry",
+            "target": "Easun Reyrolle Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

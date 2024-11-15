@@ -1,0 +1,115 @@
+{
+    "summary": "IVRCL's financial status is critical due to debt restructuring and liquidation process. The company has a strong pre-qualification for EPC projects, but faces risks and concerns in the current environment. The infrastructure sector is expected to grow, but the company's future depends on the outcome of the liquidation process.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "100 Smart Cities",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Housing-for-All by 2022",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tata Institute of Fundamental Research Building",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bangalore Metro Rail Project",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "National Highway Development Programme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Malanjkhand Underground Project",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL",
+            "target": "100 Smart Cities",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "IVRCL",
+            "target": "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "IVRCL",
+            "target": "Housing-for-All by 2022",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "IVRCL",
+            "target": "Tata Institute of Fundamental Research Building",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1",
+                "Production Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "IVRCL",
+            "target": "Bangalore Metro Rail Project",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1",
+                "Production Start Date": "2018-03-31"
+            }
+        },
+        {
+            "source": "National Highway Development Programme",
+            "target": "IVRCL",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Malanjkhand Underground Project",
+            "target": "IVRCL",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Liquidation Process",
+            "target": "IVRCL",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Debt Restructuring"
+            }
+        }
+    ]
+}

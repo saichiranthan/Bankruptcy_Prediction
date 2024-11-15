@@ -1,0 +1,79 @@
+{
+    "summary": "Avanti Feeds Limited is an Indian company that operates in the aquaculture industry. The company has been facing challenges due to the COVID-19 pandemic, increased raw material costs, and volatility in international shrimp prices. However, the company has been able to maintain its market share and is expected to grow strategically by exploring new export markets. The Indian aquaculture sector is expected to recover significantly in FY 2022-23, driven by growing demand for shrimps in the US and other markets. The company's financial status is stable, and its future prospects are positive. The bankruptcy level of the company is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Avanti Feeds Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shrimp",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Thai Union Group",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian aquaculture industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.5",
+                "impact_type": "Financial",
+                "reason": "Increased raw material costs and volatility in international shrimp prices"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Shrimp",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "5.41 Lakh MTs",
+                "production_start_date": "FY 22"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Thai Union Group",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "10%"
+            }
+        },
+        {
+            "source": "Indian aquaculture industry",
+            "target": "Avanti Feeds Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "0.5",
+                "mention_count": "5"
+            }
+        },
+        {
+            "source": "US",
+            "target": "Avanti Feeds Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Exporter",
+                "effect": "0.5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "summary": "The company's financial performance and outlook is furnished in the Directors\u2019 Report. The liquor industry in India is highly Government regulated and the rising input cost of bottles, caps, labels, transport charges etc, will also impact the profitability of the company. The company has an internal control system commensurate with the size and business operations of the Company.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "The Company",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "The Liquor Industry in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "IMFL",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "The Company",
+            "target": "The Liquor Industry in India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.2"
+            }
+        },
+        {
+            "source": "The Company",
+            "target": "IMFL",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "41,88,182 cases",
+                "Production Start Date": "31.03.2018"
+            }
+        },
+        {
+            "source": "The Liquor Industry in India",
+            "target": "The Company",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.2",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "The Liquor Industry in India",
+            "target": "The Company",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Highly Government regulated and rising input cost"
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "summary": "Aster DM Healthcare Limited is a healthcare provider with a network of hospitals, clinics, and pharmacies in India and the Middle East. The company has a strong presence in Andhra Pradesh and Telangana, with several hospitals and clinics in these regions. Aster DM Healthcare Limited has also expanded its footprint in Kerala and Karnataka. The company's hospitals and clinics offer a range of medical services, including cardiology, neurosciences, and oncology. Aster DM Healthcare Limited has also established a global reference laboratory in Bengaluru, which provides high-quality diagnostic services. The company's pharmacies are operated by Alfaone Retail Pharmacies Private Limited and offer a wide range of pharmaceutical and wellness products. Aster DM Healthcare Limited has a strong commitment to quality and safety, and has implemented various measures to ensure the highest standards of patient care. The company's financial performance is strong, with a significant increase in revenue and profitability in the last financial year. However, the company faces intense competition in the healthcare industry, which may impact its future growth prospects.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Aster DM Healthcare Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster Prime Hospital",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ramesh Hospitals",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster Narayanadri Hospital",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster Clinics",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster Pharmacies",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster Labs",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aster International Institute of Oncology",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Alfaone Retail Pharmacies Private Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Andhra Pradesh",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Telangana",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Kerala",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Karnataka",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster Prime Hospital",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Ramesh Hospitals",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster Narayanadri Hospital",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster Clinics",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster Pharmacies",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster Labs",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Aster International Institute of Oncology",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Aster Pharmacies",
+            "target": "Alfaone Retail Pharmacies Private Limited",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Andhra Pradesh",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Telangana",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Kerala",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Karnataka",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

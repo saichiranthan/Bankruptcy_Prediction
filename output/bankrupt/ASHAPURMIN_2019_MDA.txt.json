@@ -1,0 +1,80 @@
+{
+    "summary": "Ashapura Minechem Limited is a mining company that has been facing financial difficulties due to various factors such as global economic slowdown, trade policy uncertainties, and high government levies. Despite these challenges, the company has been trying to resuscitate its settlement agreement with shipping companies and has been focusing on Bentonite and newer bulk industrial minerals. The company has also been investing in research and development and human resources development. However, the company's financial performance has been negative, with a net loss of Rs. 7,431.45 Lakhs in FY 2018-19. The company's bankruptcy level is 0.6 due to its negative financial performance and high debt levels.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Ashapura Minechem Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Economic slowdown",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Bentonite",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Silica quartz",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "International Monetary Fund (IMF)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Federation of Indian Chambers of Commerce & Industry (FICCI)",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Economic slowdown",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bentonite",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Economic slowdown",
+            "target": "Ashapura Minechem Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Global economic slowdown, trade policy uncertainties, and high government levies"
+            }
+        },
+        {
+            "source": "International Monetary Fund (IMF)",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "Neutral",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Federation of Indian Chambers of Commerce & Industry (FICCI)",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "Neutral",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

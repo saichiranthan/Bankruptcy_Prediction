@@ -1,0 +1,268 @@
+{
+    "summary": "The company is engaged in the aqua culture industry, manufacturing high-quality feed for shrimps and fish, operating a Vannamei hatchery, and processing and exporting shrimps. The company has a strong technical and marketing tie-up with THAI UNION Group of Thailand. The company's financial performance has been good, with a profit of Rs.17,985 lacs before tax adjustments. However, the company faces threats such as volatility in international shrimp prices, fluctuating foreign exchange rates, and natural calamities. The company's outlook is positive, with growth expected in the shrimp culture industry and the company's plans to set up its own hatchery and expand its shrimp feed manufacturing capacity.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "THAI UNION Group of Thailand",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "South East Asia",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ONGC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GAIL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vannamei Species",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Shrimp",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Fish",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Power Project",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Shrimp Feed",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Specific Pathogen Free (SPF) seed",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Shrimp Culture Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Aqua Culture Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Export Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Natural Calamities",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US Anti-Dumping Duty",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US Countervailing Duty",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Annual Report 2014-2015",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "THAI UNION Group of Thailand",
+            "target": "India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Shrimp Culture Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Aqua Culture Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "USA",
+            "target": "Export Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Europe",
+            "target": "Export Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Japan",
+            "target": "Export Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "South East Asia",
+            "target": "Export Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ONGC",
+            "target": "Power Project",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "17.2 MW",
+                "Production Start Date": "2014-15"
+            }
+        },
+        {
+            "source": "GAIL",
+            "target": "Power Project",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "3.2 MW",
+                "Production Start Date": "2014-15"
+            }
+        },
+        {
+            "source": "Shrimp Culture Industry",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "10"
+            }
+        },
+        {
+            "source": "Aqua Culture Industry",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "10"
+            }
+        },
+        {
+            "source": "Export Market",
+            "target": "USA",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Export Market",
+            "target": "Europe",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Export Market",
+            "target": "Japan",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Export Market",
+            "target": "South East Asia",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Natural Calamities",
+            "target": "India",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Loss of production due to natural calamities"
+            }
+        },
+        {
+            "source": "US Anti-Dumping Duty",
+            "target": "India",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Loss of revenue due to US anti-dumping duty"
+            }
+        },
+        {
+            "source": "US Countervailing Duty",
+            "target": "India",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Loss of revenue due to US countervailing duty"
+            }
+        },
+        {
+            "source": "Annual Report 2014-2015",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "10"
+            }
+        }
+    ]
+}

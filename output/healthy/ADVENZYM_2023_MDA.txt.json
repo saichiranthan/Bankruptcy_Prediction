@@ -1,0 +1,59 @@
+{
+    "summary": "The global economy made a significant recovery in 2022, but India's growth is expected to decline from 6.8% in 2022 to 6.1% in 2023. The Indian government has implemented policies to improve the economy, including increasing infrastructure spending and implementing policies to boost economic growth. The global industrial enzymes market is expected to register a 6.27% CAGR during the forecast period of 2022-2030.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "International Monetary Fund (IMF)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Industrial Enzymes",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "International Monetary Fund (IMF)",
+            "target": "Global Economy",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Reserve Bank of India",
+            "target": "Indian Economy",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "India",
+            "target": "Global Industrial Enzymes",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global Economy",
+            "target": "Indian Economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "International Monetary Fund (IMF)",
+            "target": "Indian Economy",
+            "relation": "MENTIONS"
+        }
+    ]
+}

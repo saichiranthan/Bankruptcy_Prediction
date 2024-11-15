@@ -1,0 +1,137 @@
+{
+    "summary": "C & C Constructions Ltd. is a construction company in India. The company's financial performance has been affected by the challenging business environment and financial crunch. However, the company is taking steps to improve its liquidity and is exploring new jobs. The company's order book as of March 31, 2017, was ` 3929 crores. The company's bankruptcy level is 0.2, indicating a critical situation. The company's future prospects are uncertain due to the challenges in the construction industry.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "C & C Constructions Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Highways Authority of India (NHAI)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ministry of Road Transport and Highways",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ministry of Statistics and Programme Implementation",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Niti Aayog",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "EPI-C & C, JV",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India-Myanmar Border (Zorinpui)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "100 Smart Cities Mission",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Housing for All",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Atal Mission for Urban Rejuvenation and Transformation (AMRUT)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Make in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Power for All",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Pradhan Mantri Gram Sadak Yojana",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Highways Development Programme (NHDP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Enterprise Resource Planning (ERP)",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "EPI-C & C, JV",
+            "relation": "OWNS"
+        },
+        {
+            "source": "EPI-C & C, JV",
+            "target": "India-Myanmar Border (Zorinpui)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Enterprise Resource Planning (ERP)",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "National Highways Authority of India (NHAI)",
+            "target": "Pradhan Mantri Gram Sadak Yojana",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "100 Smart Cities Mission",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer"
+            }
+        },
+        {
+            "source": "Ministry of Road Transport and Highways",
+            "target": "National Highways Development Programme (NHDP)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer"
+            }
+        },
+        {
+            "source": "Ministry of Statistics and Programme Implementation",
+            "target": "National Highways Development Programme (NHDP)",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Niti Aayog",
+            "target": "100 Smart Cities Mission",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "summary": "Ashapura Minechem Limited is an Indian mining company that has experienced a decline in its financial performance in the year 2018-19. The company's net income from operations stood at Rs. 33,717.86 Lakhs with a negative bottom line of Rs. 7,431.45 Lakhs. Despite the challenges, the company remains optimistic about its future prospects, with a renewed focus on Bentonite and newer bulk industrial minerals. The company's financial status is critical, with a high debt-to-equity ratio and a decline in its key financial ratios. However, the company's management is committed to ensuring that its operations are carried out within a well-defined internal control framework.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Ashapura Minechem Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Chetan Shah",
+            "type": "PERSON"
+        },
+        {
+            "entity": "International Monetary Fund (IMF)",
+            "type": "ORGANIZATION"
+        },
+        {
+            "entity": "Federation of Indian Chambers of Commerce & Industry (FICCI)",
+            "type": "ORGANIZATION"
+        },
+        {
+            "entity": "India",
+            "type": "COUNTRY"
+        },
+        {
+            "entity": "China",
+            "type": "COUNTRY"
+        },
+        {
+            "entity": "United States",
+            "type": "COUNTRY"
+        },
+        {
+            "entity": "Bentonite",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Silica Quartz",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron Ore",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bauxite",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Chetan Shah",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bentonite",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Silica Quartz",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "International Monetary Fund (IMF)",
+            "target": "India",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Federation of Indian Chambers of Commerce & Industry (FICCI)",
+            "target": "India",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "India",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "China",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "United States",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS"
+        }
+    ]
+}

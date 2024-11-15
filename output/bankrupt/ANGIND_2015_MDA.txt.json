@@ -1,0 +1,153 @@
+{
+    "summary": "ANG Industries Ltd., a manufacturer of Automotive Components, Tippers, Boiler thermal support and components for the off-Highway, is expected to achieve a favourable growth in the current financial year. The company has suffered a loss of Rs. 600.48 Lacs in the previous year, but is hopeful that its business venture will help in the growth of the company in the near future. The company is exposed to internal and external risks associated with the business, but has implemented adequate risk management approach to counter these risks.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "ANG Industries Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Make in India initiative",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Automotive Components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Tippers",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Boiler thermal support",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Off-Highway components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian auto component industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Commercial Vehicle Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ashok Leyland Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BHEL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NTPC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ISGEC",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Make in India initiative",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Automotive Components",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Tippers",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Boiler thermal support",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Off-Highway components",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Indian auto component industry",
+            "target": "ANG Industries Ltd.",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Commercial Vehicle Industry",
+            "target": "ANG Industries Ltd.",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Ashok Leyland Ltd",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "BHEL",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "NTPC",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "ISGEC",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "summary": "The company, Empee Distilleries Limited, is in the Indian liquor market, which is growing well. However, the IMFL industry faces challenges like restrictive policies, increase in raw material prices, and impositions on advertising. The company has introduced new premium brands and is planning to expand its business. The financial performance and outlook are furnished in the Directors' Report. The company has an internal control system in place, but the rising input cost and government regulations may impact the profitability.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Empee Distilleries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian made foreign liquor (IMFL)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Chevalier De Paris - XL Premium Brandy",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Carte Royale \u2013 XO Premium Brandy",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Tamilnadu",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Telangana",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Andhra Pradesh",
+            "type": "EVENT"
+        },
+        {
+            "entity": "South East Asia",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Middle East",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Singapore",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Chevalier De Paris - XL Premium Brandy",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Carte Royale \u2013 XO Premium Brandy",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Indian made foreign liquor (IMFL)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Indian liquor market",
+            "target": "Empee Distilleries Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Tamilnadu",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Telangana",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Andhra Pradesh",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "South East Asia",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Middle East",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Singapore",
+            "target": "Empee Distilleries Limited",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "summary": "21EMPEE DISTILLERIES LIMITED is a company that operates in the IMFL market. The company has decided to re-orient its IMFL strategy in line with the 'premiumization' trend in the industry and has introduced new premium brands. The company's financial performance and outlook is furnished in the Directors' Report. However, the company faces risks and concerns such as government regulations, rising input costs, and constraints on manufacturing, storage, and distribution. The company's internal control system is commensurate with its size and business operations. The company's bankruptcy level is 0.2 due to its financial difficulties and regulatory challenges.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "21EMPEE DISTILLERIES LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "blue crystal vodka",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Tamilnadu",
+            "type": "EVENT"
+        },
+        {
+            "entity": "South East Asia",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Middle East",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Singapore",
+            "type": "EVENT"
+        },
+        {
+            "entity": "TNEB",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "blue crystal vodka",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "Tamilnadu",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "South East Asia",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "Middle East",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "Singapore",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "TNEB",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "21EMPEE DISTILLERIES LIMITED",
+            "target": "India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "TNEB",
+            "target": "21EMPEE DISTILLERIES LIMITED",
+            "relation": "PARTICIPATES_IN"
+        }
+    ]
+}

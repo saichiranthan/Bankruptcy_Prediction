@@ -1,0 +1,122 @@
+{
+    "summary": "The company Gallantt Ispat Limited is in a good financial situation with a growth rate of 7.6% in 2015-16. The company's steel industry is competitive and has a bright future due to low oil prices, reform momentum, and policies to strengthen infrastructure and manufacturing output. The company's agro industry is also growing with an increase in urbanization, income level of population, and other related factors. However, the company faces threats such as rising fuel prices, stiff competition, and slowdown in demand. The company is taking efforts to improve quality and productivity to get more orders at competitive rates. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Gallantt Ispat Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "United States",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Korea",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ASEAN",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Make in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Atta",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Suji",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bran",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "C. P. Agrawal",
+            "type": "PERSON"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Make in India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Atta",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Suji",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Bran",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Steel",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "C. P. Agrawal",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "India",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "China",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "United States",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Japan",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Korea",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "ASEAN",
+            "target": "Gallantt Ispat Limited",
+            "relation": "COMPETES_WITH"
+        }
+    ]
+}

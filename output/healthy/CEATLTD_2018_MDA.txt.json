@@ -1,0 +1,111 @@
+{
+    "summary": "The global economy is expected to grow strongly in 2018, driven by both advanced and emerging economies. India's economy is also expected to grow at an accelerated pace, driven by positive indicators such as moderate inflation, expected growth of the industrial sector, and recovery in investment levels. The tyre industry is directly affected by the performance of the automobile industry, which depends on the overall economic growth. CEAT Limited is a leading tyre manufacturer in India, and its production and sales are expected to grow in line with the automobile sales. However, the company faces challenges such as increased competition from Chinese tyre manufacturers and the impact of the Anti-Dumping Duty imposed by the Government of India.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "CEAT Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Growth",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tyre Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Automobile Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Anti-Dumping Duty",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tyres",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "CEAT Limited",
+            "target": "Global Economic Growth",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Indian Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Tyre Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "180 mn tyres",
+                "Production Start Date": "2018"
+            }
+        },
+        {
+            "source": "Global Economic Growth",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "Tyre Industry",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Automobile Industry",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Anti-Dumping Duty",
+            "target": "CEAT Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Increased competition from Chinese tyre manufacturers"
+            }
+        }
+    ]
+}

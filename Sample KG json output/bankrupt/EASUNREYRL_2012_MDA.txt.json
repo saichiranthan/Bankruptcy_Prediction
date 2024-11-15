@@ -1,0 +1,100 @@
+{
+    "summary": "The company has achieved a modest growth in India despite various economic factors and maintained its market share in most of its business verticals. The company's long term outlook remains optimistic and bright. However, the company's financial performance has been impacted by various factors such as high interest rates, worldwide recession, and subdued investment climate. The company is focusing on improving internal efficiencies, reduction of debtors and reducing the input costs and expenses, as well as safeguarding market share in various business segments.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ERL Phase Power Technologies Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL MINT",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Madhya Pradesh Electricity Distribution Companies",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global manufacturing base",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Protection relays",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ring Main Units",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Switchgear products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ERL Phase Power Technologies Ltd",
+            "target": "Protection relays",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "47%",
+                "Production Start Date": "2012"
+            }
+        },
+        {
+            "source": "Switchcraft Europe GmbH",
+            "target": "Ring Main Units",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Significant",
+                "Production Start Date": "2012-13"
+            }
+        },
+        {
+            "source": "ERL MINT",
+            "target": "Switchgear products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "More than double",
+                "Production Start Date": "2012"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "ERL Phase Power Technologies Ltd",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Global manufacturing base",
+            "target": "ERL Phase Power Technologies Ltd",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Madhya Pradesh Electricity Distribution Companies",
+            "target": "ERL Phase Power Technologies Ltd",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

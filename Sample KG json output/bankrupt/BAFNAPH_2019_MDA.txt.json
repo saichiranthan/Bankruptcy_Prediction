@@ -1,0 +1,160 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a pharmaceutical company that has experienced a decline in revenue and net loss in the year 2019. The company is in growth/expansion mode and is evaluating options to raise additional funds. The company plans to improve EBIDTA margins by increasing revenue from contract manufacturing in regulated markets, expanding to new geographies, and focusing on FR&D for launching new products. The company's bankruptcy level is 0.6 due to its declining financial performance and increasing competition in the pharmaceutical industry.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "US Federal Reserve",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Aetna/CVS",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Cigna/Express Scripts",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bafna Mahaveer Chand",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Trade War between the US and China",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Brexit",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Biosimilars",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Generic drugs",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Regenerative medicine",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Gene editing",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Bafna Mahaveer Chand",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Chairman & Managing Director",
+                "Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Trade War between the US and China",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Brexit",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Biosimilars",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Generic drugs",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Regenerative medicine",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Gene editing",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Trade War between the US and China",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Brexit",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "US Federal Reserve",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Aetna/CVS",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        },
+        {
+            "source": "Cigna/Express Scripts",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "Not specified"
+            }
+        }
+    ]
+}

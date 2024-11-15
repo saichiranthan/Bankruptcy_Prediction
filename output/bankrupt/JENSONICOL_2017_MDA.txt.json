@@ -1,0 +1,37 @@
+{
+    "summary": "JENSON AND NICHOLSON (INDIA) LIMITED is facing financial difficulties due to the demonetization event in India. The company's financial performance has been affected, and it has a significant amount of debt. However, the company is trying to recover and is in negotiations with investors to settle its debts. The bankruptcy level of the company is 0.6, indicating a critical financial situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Demonetization",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": 0.8,
+                "Impact Type": "Financial",
+                "Reason": "Cash shortage and payment disruptions"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": -0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "summary": "The global economy witnessed a challenging year in 2019, with a decline in GDP growth. The COVID-19 outbreak has had a significant impact on the economy, with a contraction of 3% expected in 2020. However, the situation is expected to stabilize by mid-2020, leading to a GDP recovery to 5.8% by the end of 2021. The Indian economy also witnessed a slowdown in FY 2020, with a GDP growth rate of 4.2%. The government has introduced fiscal and monetary reforms to boost the economy. The global healthcare industry is expected to reach US$ 11.908 trillion by 2023, growing at a CAGR of 8.9% from 2018-2023. The GCC healthcare market is estimated to be worth US$ 104.6 billion in 2022, and is expected to grow at a CAGR of 6.6% from 2018-2022. Aster DM Healthcare Limited, a company in the healthcare industry, has a bankruptcy level of 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Aster DM Healthcare Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "COVID-19 outbreak",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Healthcare Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GCC Healthcare Market",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Global Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "COVID-19 outbreak",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Disruption in supply chain and manufacturing activity"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.2"
+            }
+        },
+        {
+            "source": "Global Healthcare Industry",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.7",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "GCC Healthcare Market",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.9",
+                "Mention Count": "3"
+            }
+        }
+    ]
+}

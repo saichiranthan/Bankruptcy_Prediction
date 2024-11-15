@@ -1,0 +1,53 @@
+{
+    "summary": "ABG Shipyard Limited's annual report for the year 2012-2013 shows a challenging year for the global and Indian economy, with a low growth rate of about 5-5.5% in India. The company's outlook for the current fiscal appears better than the previous year, with inflation within tolerance levels and softening of global commodity prices. However, the company's financial status is not explicitly stated in the report. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "ABG Shipyard Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Shipbuilding and Ship Repair Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Shipbuilding and Ship Repair Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ships",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Global Shipbuilding and Ship Repair Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Ships",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "20",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Indian Shipbuilding and Ship Repair Industry",
+            "target": "ABG Shipyard Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

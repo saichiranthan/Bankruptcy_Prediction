@@ -1,0 +1,89 @@
+{
+    "summary": "Advanced Enzyme Technologies Limited is an Indian company that has managed to emerge stronger despite the pandemic. The company is involved in the production of enzymes, which have various applications in industries such as food, animal feed, textiles, and pharmaceuticals. The global enzyme market is expected to grow at a CAGR of 4.6% between 2021 and 2026. However, the company's growth is expected to be impacted by the Russian invasion of Ukraine, which has led to a surge in oil prices and inflationary pressures. The company's bankruptcy level is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Advanced Enzyme Technologies Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Enzymes",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Russia-Ukraine war",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "International Monetary Fund (IMF)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Bank",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Enzymes",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.5",
+                "impact_type": "Financial",
+                "reason": "Disruption in supply chain and manufacturing"
+            }
+        },
+        {
+            "source": "Russia-Ukraine war",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.3",
+                "impact_type": "Financial",
+                "reason": "Surge in oil prices and inflationary pressures"
+            }
+        },
+        {
+            "source": "International Monetary Fund (IMF)",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "-0.5",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "World Bank",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "-0.5",
+                "mention_count": "1"
+            }
+        },
+        {
+            "source": "Indian Government",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "0.2"
+            }
+        }
+    ]
+}

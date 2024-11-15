@@ -1,0 +1,90 @@
+{
+    "summary": "Jaypee Infratech Limited is a real estate company that has been facing liquidity issues and piling debt. The company has commenced development of its Land Parcel-1 at Noida, Land Parcel-3 at Mirzapur and Land Parcel-5 at Agra. The company has launched approx. 59.41 million sq. ft. area and has sold approx. 52.63 million sq. ft. area in built up retail segment till 31.03.2017 aggregating to sales value of ` 18052 Crores. The company's debt restructuring plan is currently under consideration by the Lenders. The management is positive about Company\u2019s long term outlook, once the debt is restructured, the delivery of its real estate projects shall need to be monitored closely. The company's bankruptcy level is 0.8 due to its current financial situation and future prospects.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Jaypee Hospital",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Yamuna Expressway Project",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "RERA",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Yamuna Expressway Project",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Jaypee Hospital",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1",
+                "Production Start Date": "2015-16"
+            }
+        },
+        {
+            "source": "Yamuna Expressway Project",
+            "target": "Jaypee Infratech Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Increased toll collections"
+            }
+        },
+        {
+            "source": "Demonetization",
+            "target": "Jaypee Infratech Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Liquidity issues and piling debt"
+            }
+        },
+        {
+            "source": "GST",
+            "target": "Jaypee Infratech Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "RERA",
+            "target": "Jaypee Infratech Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

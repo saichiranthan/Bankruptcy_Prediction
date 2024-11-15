@@ -1,0 +1,94 @@
+{
+    "summary": "The Indian economy has shown resilience despite global economic uncertainties. The government's policies, such as the Goods and Services Tax (GST) and demonetization, have had both positive and negative impacts on the economy. The steel industry has faced challenges due to overcapacity and weak demand, but the government's trade remedial measures have provided some relief. The company, Gallantt Ispat Limited, has maintained its balance sheet strength by minimizing risks and improving operational efficiency. The company's outlook is positive, with a focus on improving quality and productivity, expanding capacity, and benefiting from the government's initiatives.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Gallantt Ispat Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "United States",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "European Union",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "C. P. Agrawal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Brexit",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Wheat",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "C. P. Agrawal",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "India",
+            "target": "GST",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "India",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Steel",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Wheat",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Brexit",
+            "target": "European Union",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "GST",
+            "target": "India",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Demonetization",
+            "target": "India",
+            "relation": "MENTIONS"
+        }
+    ]
+}

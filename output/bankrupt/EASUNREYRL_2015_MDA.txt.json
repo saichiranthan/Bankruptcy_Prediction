@@ -1,0 +1,72 @@
+{
+    "summary": "Easun Reyrolle Limited is facing financial difficulties due to slow economic growth, delayed execution of power and T&D projects, and highly leveraged balance sheets. The company's sales and cash flows have been impacted, resulting in a net loss of Rs.3729.33 Lacs. However, the company is focusing on innovation and development, and has a strong presence in the field of Power Protection & Automation. The government's focus on the power and T&D sector is expected to drive economic growth, and the company's business outlook is positive.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Power Generation",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Transmission and Distribution",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "India",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Power Generation",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Transmission and Distribution",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Delayed execution of power and T&D projects, highly leveraged balance sheets"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Power Generation",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Transmission and Distribution",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

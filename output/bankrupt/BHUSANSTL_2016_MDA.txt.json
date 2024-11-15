@@ -1,0 +1,77 @@
+{
+    "summary": "Bhushan Steel Limited's management presents its analysis report covering performance and outlook of the company. The company is engaged in the steel business and has been performing satisfactorily. However, the steel industry is facing challenges such as rising imports and high cost of raw materials. The company has been taking steps to mitigate these risks and has been focusing on globalization and customization. The company's financial performance has been satisfactory, but the industry is expected to face challenges in the future. Bhushan Steel Limited is expected to emerge as a sector leader in the long term due to its strong customer relationships, wide range of value-added products, and strategic locations of its plants. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Bhushan Steel Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Hot Rolled Coils/Plates (HRC/ HRP)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Cold Rolled Coils/sheets (CRC/CRS)",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Galvanised Coils/Sheets",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "New Industrial policy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Steel Industry",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Hot Rolled Coils/Plates (HRC/ HRP)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Cold Rolled Coils/sheets (CRC/CRS)",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Galvanised Coils/Sheets",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global Steel Industry",
+            "target": "Bhushan Steel Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Indian Steel Industry",
+            "target": "Bhushan Steel Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "New Industrial policy",
+            "target": "Indian Steel Industry",
+            "relation": "MENTIONS"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "summary": "AVANTI FEEDS LIMITED has marked its presence in the field of aquaculture by engaging in manufacturing high-quality feed for shrimps, operating the Vannamei hatchery and processing and exporting shrimps. The Company has a well-trained technical team to provide technical support to the farmers. The global shrimp consumption is also expected to increase in future, assuring consistent market. The expansion of the feed plant at Bandapuram, West Godavari District, Andhra Pradesh with an additional capacity of 1,75,000 MT per annum has commenced production from March 2018. The Company has started the construction of 400 million shrimp seed hatcher at Village Gudivada, near Visakhapatnam, Andhra Pradesh for setting up 400 million shrimp seed hatcheries. The commercial operations of the 1st phase of the project is scheduled in early 2019. The company's financial status and future prospects are positive, with a growth rate of 23% in the shrimp culture industry from 2010-11 to 2017-18. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "AVANTI FEEDS LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Seafood Production",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shrimp Feed",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Vannamei Hatchery",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Shrimp",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "AVANTI FEEDS LIMITED",
+            "target": "Shrimp Feed",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1,75,000 MT per annum",
+                "Production Start Date": "March 2018"
+            }
+        },
+        {
+            "source": "AVANTI FEEDS LIMITED",
+            "target": "Vannamei Hatchery",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "400 million shrimp seed",
+                "Production Start Date": "Early 2019"
+            }
+        },
+        {
+            "source": "AVANTI FEEDS LIMITED",
+            "target": "Shrimp",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "5,66,000 MT in 2017-18",
+                "Production Start Date": "2017-18"
+            }
+        },
+        {
+            "source": "Global Seafood Production",
+            "target": "AVANTI FEEDS LIMITED",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Increase in global seafood consumption"
+            }
+        }
+    ]
+}

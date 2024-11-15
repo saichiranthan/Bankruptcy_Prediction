@@ -1,0 +1,108 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in a specialized segment of the steel industry, producing special alloy steel, ferro alloys, iron billets, and rolled products. The company's performance has been marred due to the sharp decline in the performance of important customers. The global economic recovery has been slow, with several economies facing different geographic challenges. The Indian economy is on a path of gradual recovery, but the steel industry in India and worldwide showed no signs of improvement. The company's bankruptcy level is 0.6 due to the negative impact of the global steel demand and the Indian economy's slow recovery.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Recovery",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Special Alloy Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ferro Alloys",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron Billets",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rolled Products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Special Alloy Steel",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ferro Alloys",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Iron Billets",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Rolled Products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Global Economic Recovery",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Slow economic recovery"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.7",
+                "Impact Type": "Financial",
+                "Reason": "Slow economic recovery"
+            }
+        },
+        {
+            "source": "Steel Industry",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.9",
+                "Impact Type": "Financial",
+                "Reason": "Global steel demand contraction"
+            }
+        }
+    ]
+}

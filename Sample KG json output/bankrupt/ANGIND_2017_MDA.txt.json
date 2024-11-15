@@ -1,0 +1,95 @@
+{
+    "summary": "The company, ANG, is experiencing a difficult financial situation due to various factors such as the loss of major contracts, the impact of the BS III vs BS IV emission norms, and the cancellation of a contract with BHEL. The company is trying to revive its business relations and has mitigation strategies in place to address risk emanating from prevailing economic uncertainties and volatility in the business environment. The company's financial status is critical, and its future prospects are uncertain.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ANG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BHEL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ashok Leyland Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Supreme Court of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "None",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Implementation of BS IV emission norms",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Cancellation of BHEL contract",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Loss of major contracts",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tippers",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG",
+            "target": "Ashok Leyland Limited",
+            "relation": "OWNS"
+        },
+        {
+            "source": "ANG",
+            "target": "BHEL",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "ANG",
+            "target": "Implementation of BS IV emission norms",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG",
+            "target": "Cancellation of BHEL contract",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG",
+            "target": "Loss of major contracts",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG",
+            "target": "Tippers",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Implementation of BS IV emission norms",
+            "target": "ANG",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Cancellation of BHEL contract",
+            "target": "ANG",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Loss of major contracts",
+            "target": "ANG",
+            "relation": "MENTIONS"
+        }
+    ]
+}

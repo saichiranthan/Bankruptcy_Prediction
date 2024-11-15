@@ -1,0 +1,92 @@
+{
+    "summary": "Avanti Feeds Limited is a pioneer in the Indian shrimp industry with over 26 years of experience. The company has a strong dealership network and provides technical assistance to farmers. However, the aquaculture industry is dependent on climatic conditions and natural calamities, which can have a serious impact on the prospects of successful culture. Despite this, the company has shown resilience and has achieved record shrimp production. The company's financial performance has been good, with a profit of \u20b93763.75 crores before tax adjustments. However, the company's power projects have faced challenges, including limited power generation due to non-availability of gas. The company has a proper internal control system in place to ensure that all assets are safeguarded and protected against loss. The company's bankruptcy level is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Avanti Feeds Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "CoVID-19",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shrimp",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Thai Union Group",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "GAIL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Srivathsa Power Projects Private Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Patikari Power Private Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "CoVID-19",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.2",
+                "impact_type": "Financial",
+                "reason": "Limited power generation due to non-availability of gas"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Shrimp",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "750000",
+                "production_start_date": "2019"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Thai Union Group",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "20"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Srivathsa Power Projects Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "ownership_percentage": "49.99",
+                "acquisition_date": "2019"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Patikari Power Private Limited",
+            "relation": "OWNS",
+            "properties": {
+                "ownership_percentage": "25.88",
+                "acquisition_date": "2019"
+            }
+        },
+        {
+            "source": "CoVID-19",
+            "target": "Avanti Feeds Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "-0.5",
+                "mention_count": "2"
+            }
+        }
+    ]
+}

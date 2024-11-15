@@ -1,0 +1,144 @@
+{
+    "summary": "C & C Constructions Ltd. is a construction company that has been facing financial difficulties, but has taken steps to improve its liquidity and is optimistic about its future prospects. The company's financial performance has been impacted by the challenges in the construction industry, including delayed payments, high interest rates, and intense competition. However, the company has a strong order book and is exploring new opportunities in the infrastructure sector. The government's plans to invest in infrastructure development and the company's efforts to improve its internal controls and risk management are expected to support its growth.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "C & C Constructions Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Highways Authority of India (NHAI)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ministry of Road Transport and Highways",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Niti Aayog",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Construction industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Infrastructure sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "100 Smart Cities Mission",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Housing for All",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Atal Mission for Urban Rejuvenation and Transformation (AMRUT)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Make in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Power for All",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "National Highways Authority of India (NHAI)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "100 Smart Cities Mission",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Construction industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015"
+            }
+        },
+        {
+            "source": "Ministry of Road Transport and Highways",
+            "target": "C & C Constructions Ltd.",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.6",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Niti Aayog",
+            "target": "Infrastructure sector",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "Reserve Bank of India",
+            "target": "C & C Constructions Ltd.",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "0.5",
+                "Acquisition Date": "2013"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "National Highways Authority of India (NHAI)",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.3"
+            }
+        },
+        {
+            "source": "100 Smart Cities Mission",
+            "target": "C & C Constructions Ltd.",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Increased investment in infrastructure"
+            }
+        },
+        {
+            "source": "Housing for All",
+            "target": "C & C Constructions Ltd.",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Reputation",
+                "Reason": "Improved brand image"
+            }
+        }
+    ]
+}

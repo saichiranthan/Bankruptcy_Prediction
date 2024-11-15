@@ -1,0 +1,169 @@
+{
+    "summary": "Jaypee Infratech Limited is undergoing Corporate Insolvency Resolution Process (CIRP) and its affairs, business and assets are being managed by Mr. Anuj Jain, the Interim Resolution Professional. The company's revenue from Toll Collection for the year ended 31st March, 2021 aggregated to Rs 334.18 crores as compared to Rs 337.72 Crores for the corresponding previous year ended 31st March, 2020. The decline in toll collection had been primarily due to COVID-19 pandemic lock-down imposed by union Government throughout the country. The company's financial performance for the year 2020-21 was affected by the CIRP and the resultant loss for the year under reference. The company's future prospects are dependent on the successful completion of the CIRP and the implementation of the Resolution Plan. The company's bankruptcy level is 0.6 due to the negative impact of the CIRP and the COVID-19 pandemic on its financial performance.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Yamuna Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Noida International Airport",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Eastern Peripheral Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Agra Lucknow Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Circular Agra Ring Road",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Film city",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Company Law Tribunal (NCLT)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Supreme Court of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NBCC (India) Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Suraksha Realty Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "decline in toll collection due to pandemic lock-down"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Yamuna Expressway",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "334.18",
+                "Production Start Date": "31st March, 2021"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Noida International Airport",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "0",
+                "Production Start Date": "2023"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Eastern Peripheral Expressway",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "0",
+                "Production Start Date": "2023"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Agra Lucknow Expressway",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "0",
+                "Production Start Date": "2023"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Circular Agra Ring Road",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "0",
+                "Production Start Date": "2023"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Film city",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "0",
+                "Production Start Date": "2023"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Jaypee Infratech Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "0",
+                "Acquisition Date": "0"
+            }
+        },
+        {
+            "source": "National Company Law Tribunal (NCLT)",
+            "target": "Jaypee Infratech Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "0",
+                "Acquisition Date": "0"
+            }
+        },
+        {
+            "source": "Supreme Court of India",
+            "target": "Jaypee Infratech Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "0",
+                "Acquisition Date": "0"
+            }
+        },
+        {
+            "source": "NBCC (India) Ltd",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0"
+            }
+        },
+        {
+            "source": "Suraksha Realty Limited",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0"
+            }
+        }
+    ]
+}

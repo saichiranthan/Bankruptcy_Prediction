@@ -1,0 +1,94 @@
+{
+    "summary": "The company's financial health has been impacted by the slow down of the Indian economy and the electrical equipment manufacturing sector. Despite this, the company's order book is healthy and efforts to develop and acquire latest technologies are yielding returns. The company has won prestigious orders and is expecting its international operations to become cash positive. The promoters have been advancing money to ease the liquidity position and the company is planning to raise around Rs. 50 crores by issue of equity shares to the existing shareholders on Rights Basis.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL Phase Power Technologies Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Energex Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy slow down",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Electrical equipment manufacturing sector slow down",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ring Main Units",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Power Protections Systems",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Switchcraft Europe GmbH",
+            "target": "Energex Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "ERL Phase Power Technologies Ltd",
+            "target": "Ring Main Units",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "substantial",
+                "Production Start Date": "2013-14"
+            }
+        },
+        {
+            "source": "ERL Phase Power Technologies Ltd",
+            "target": "Power Protections Systems",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "substantial",
+                "Production Start Date": "2013-14"
+            }
+        },
+        {
+            "source": "Indian economy slow down",
+            "target": "Switchcraft Europe GmbH",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "slow down of the Indian economy"
+            }
+        },
+        {
+            "source": "Electrical equipment manufacturing sector slow down",
+            "target": "Switchcraft Europe GmbH",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "slow down of the electrical equipment manufacturing sector"
+            }
+        },
+        {
+            "source": "Switchcraft Europe GmbH",
+            "target": "ERL Phase Power Technologies Ltd",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100",
+                "Acquisition Date": "Not specified"
+            }
+        }
+    ]
+}

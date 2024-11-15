@@ -1,0 +1,76 @@
+{
+    "summary": "The Indian sugar industry is the second largest agro-based industry in India. It supports ~50 million farmers and their families, providing direct employment to ~0.6 million skilled and semi-skilled persons in sugar and its allied industries. The industry is facing a crisis due to depressed sugar realisations and mounting cane arrears. The government has taken several measures to support the industry, including the announcement of a Minimum Selling Price (MSP) of sugar, creation of a buffer stock, and financial assistance to offset the cost of cane. Despite these measures, cane arrears stood at ~B17,000 crore. Balrampur Chini Mills Limited is a major player in the Indian sugar industry and has been affected by the crisis. The company's financial status is critical, and its future prospects are uncertain. The bankruptcy level of the company is 0.2.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian sugar industry",
+            "type": "INDUSTRY"
+        },
+        {
+            "entity": "Global economic review",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ethanol",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Indian sugar industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Indian sugar industry",
+            "target": "Global economic review",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "11.68 million tonnes",
+                "Production Start Date": "2018-19"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Ethanol",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "2477 million litres",
+                "Production Start Date": "2018-19"
+            }
+        },
+        {
+            "source": "Global economic review",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Depressed sugar realisations and mounting cane arrears"
+            }
+        }
+    ]
+}

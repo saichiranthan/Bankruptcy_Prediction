@@ -1,0 +1,164 @@
+{
+    "summary": "Ashapura Minechem Limited is a company that operates in the mining and mineral industry. The company has been focusing on development of value-added products and specialty products to its mineral basket, which will help the company to reduce its dependence on certain minerals and at the same time broaden its mineral portfolio. The company has been facing challenges such as inadequate infrastructural facilities, regulatory challenges, and policy gridlocks. The company's financial performance for the year ended 31st March, 2018, was under par both in terms of revenues and margins. The company has a strong research and development department that focuses on providing cost-effective and sustainable solutions to support consistent growth of business. The company has a bankruptcy level of 0.6 due to its under par financial performance and the challenges it is facing in the industry.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Ashapura Minechem Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "International Monetary Fund",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Goods and Services Tax",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Bentonite",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "China Clay",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Chamotte",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bauxite",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Goods and Services Tax",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.5"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bentonite",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "High",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "China Clay",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "High",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Chamotte",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "High",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "Bauxite",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Low",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Goods and Services Tax",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Demonetization",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "International Monetary Fund",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Reserve Bank of India",
+            "target": "Ashapura Minechem Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Ashapura Minechem Limited",
+            "target": "International Monetary Fund",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.2"
+            }
+        },
+        {
+            "source": "Goods and Services Tax",
+            "target": "Ashapura Minechem Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Reduced revenue and profitability"
+            }
+        },
+        {
+            "source": "Demonetization",
+            "target": "Ashapura Minechem Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Reduced revenue and profitability"
+            }
+        }
+    ]
+}

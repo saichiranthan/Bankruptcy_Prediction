@@ -1,0 +1,111 @@
+{
+    "summary": "ABG Shipyard Limited's annual report for 2012-2013 highlights the challenging year for the global and Indian economy. The company's financial year was marked by a low growth rate of 5-5.5%, and the industrial sector continued to reel under a severe slowdown. However, the company's long-term prospects remain bright, given the favorable demographics and the directional commitment towards liberalization. The Indian government has been supportive of the shipbuilding industry, and the company is likely to benefit from the government's initiatives to develop ancillary units for the shipbuilding sector. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "ABG Shipyard Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Nisar & Kumar Chartered Accountants",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "M. N. Ahmed",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Associate Chambers of Commerce",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Shipyards Association of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "South Korea",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vietnam",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "U.S. economy",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Euro zone",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "M. N. Ahmed",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Nisar & Kumar Chartered Accountants",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Reserve Bank of India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Associate Chambers of Commerce",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Shipyards Association of India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Indian Government",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "China",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "South Korea",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "ABG Shipyard Limited",
+            "target": "Japan",
+            "relation": "COMPETES_WITH"
+        }
+    ]
+}

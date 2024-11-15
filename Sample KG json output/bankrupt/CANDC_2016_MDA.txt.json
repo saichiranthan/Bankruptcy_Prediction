@@ -1,0 +1,53 @@
+{
+    "summary": "The company's financial performance has been affected by the challenging business environment and financial crunch. However, the company has taken steps to improve liquidity and has secured new contracts worth ` 998.46 crore. The company's order book stands at ` 2798 crore as of March 31, 2016. The company is optimistic about its future prospects and is working to strengthen its internal control systems and risk management. The company's bankruptcy level is 0.6, indicating a critical situation. The company's growth story has been positive, but the sector faces challenges such as delayed payments, slow decision-making, and liquidity crunch.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "C & C Constructions Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Highway Authority of India (NHAI)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ministry of Road Transport and Highways",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "National Highway Authority of India (NHAI)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Ministry of Road Transport and Highways",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Reserve Bank of India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

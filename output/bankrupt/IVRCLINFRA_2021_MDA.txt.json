@@ -1,0 +1,50 @@
+{
+    "summary": "IVRCL Technical Services & Solutions is under liquidation as a going concern and has been facing severe cash crunch due to delayed sale process, resulting in delayed project execution and risk of lapse of pre-qualifications. However, the company has a good number of long-serving employees and is awaiting opportunities to participate in new projects. The government's target investment of 100 Lac Crore in Infrastructure Industry by 2025 provides a prospective and encouraging environment for Civil & Contracting companies.",
+    "bankruptcy_level": {
+        "lvl": "0.8"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL Technical Services & Solutions",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 Pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Infrastructure Industry",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "COVID-19 Pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": 0.8,
+                "impact_type": "Financial",
+                "reason": "Delayed project execution and severe cash crunch"
+            }
+        },
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "Infrastructure Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Participant",
+                "effect": 0.5
+            }
+        },
+        {
+            "source": "COVID-19 Pandemic",
+            "target": "IVRCL Technical Services & Solutions",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": -0.8,
+                "mention_count": 5
+            }
+        }
+    ]
+}

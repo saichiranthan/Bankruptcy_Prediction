@@ -1,0 +1,55 @@
+{
+    "summary": "Kwality Limited is a public limited company that deals in the manufacturing of dairy products. The company has a strong brand with a distribution network in key markets and modern production facilities. However, the company is facing financial difficulties and is under the Corporate Insolvency Resolution Process. The company's revenue has decreased significantly in the past year, and it has incurred a net loss. The company's management is working to revive the business and come out of the present financial crunch.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Kwality Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Kwality Dairy Products FZE",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Covid-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Dairy products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Kwality Limited",
+            "target": "Dairy products",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Kwality Limited",
+            "target": "Kwality Dairy Products FZE",
+            "relation": "OWNS"
+        },
+        {
+            "source": "Covid-19 pandemic",
+            "target": "Kwality Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.2",
+                "impact_type": "Financial",
+                "reason": "Nationwide lockdown"
+            }
+        },
+        {
+            "source": "Kwality Limited",
+            "target": "Corporate Insolvency Resolution Process",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Participant",
+                "effect": "-0.5"
+            }
+        }
+    ]
+}

@@ -1,0 +1,500 @@
+{
+    "summary": "Indosolar, an Indian solar company, is expected to grow in the coming years due to government support and increasing demand for solar power. The company's financial performance has improved in the last year, with net sales increasing to Rs. 44,231.09 lakhs and EBITDA increasing to Rs. 7,423.69 lakhs. However, the company faces risks such as delay in tendering process, non-utilization of manufacturing capacity, and competition from Chinese companies. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Indosolar",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Asian Development Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "The World Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "New Development Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "SECI",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Arun K Gupta & Associates",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Karnataka",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Andhra Pradesh",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Telangana",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Maharashtra",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Gujarat",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Uttar Pradesh",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Haryana",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Chandigarh",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Chhattisgarh",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Solar Parks",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Net Metering",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Solar Cells",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rooftop Solar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Solar PV",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Feed-in-Tariffs",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Anti-Dumping Duty",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Risk Management Policy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Annual Report",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Indosolar",
+            "target": "Government of India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Asian Development Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "The World Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "New Development Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "SECI",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Arun K Gupta & Associates",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Solar Parks",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "40,000 MW",
+                "Production Start Date": "2020"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Net Metering",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "29 states and 7 union territories",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Solar Cells",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "195 MWp",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Rooftop Solar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "6 GW",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Solar PV",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "175 GW",
+                "Production Start Date": "2022"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Feed-in-Tariffs",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "30% capital subsidy",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Anti-Dumping Duty",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "30% capital subsidy",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Risk Management Policy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Annual Report",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "Asian Development Bank",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "The World Bank",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "New Development Bank",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "SECI",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "Arun K Gupta & Associates",
+            "target": "Indosolar",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "2017"
+            }
+        },
+        {
+            "source": "China",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "60%"
+            }
+        },
+        {
+            "source": "USA",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "40%"
+            }
+        },
+        {
+            "source": "Japan",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "30%"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "20%"
+            }
+        },
+        {
+            "source": "Karnataka",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Andhra Pradesh",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Telangana",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Maharashtra",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Gujarat",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Uttar Pradesh",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Haryana",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Chandigarh",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Chhattisgarh",
+            "target": "Indosolar",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Solar Parks",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Net Metering",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Solar Cells",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Rooftop Solar",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Solar PV",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Feed-in-Tariffs",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Anti-Dumping Duty",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Risk Management Policy",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Annual Report",
+            "target": "Indosolar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

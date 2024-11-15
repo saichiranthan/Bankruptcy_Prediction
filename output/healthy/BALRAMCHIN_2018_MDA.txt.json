@@ -1,0 +1,115 @@
+{
+    "summary": "The global sugar industry is expected to see a record production of 195 million tonnes in 2017-18, with India and Thailand being major contributors. The Indian sugar industry is the second largest agro-based industry in India and contributes significantly to the socio-economic development of rural population. However, the industry is facing challenges due to low sugar prices and high production costs. The government has taken initiatives to support the industry, including increasing import duty and providing financial assistance to sugar mills. Despite these efforts, the industry is expected to see a decline in production in the next year. Balrampur Chini Mills Limited is one of the leading sugar producers in India and has a significant presence in the global sugar market. The company has a strong focus on sustainability and has implemented various initiatives to reduce its environmental impact.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Sugar Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Sugar Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ethanol",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Bagasse",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Global Sugar Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Indian Sugar Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "32 million tonnes",
+                "Production Start Date": "2017-18"
+            }
+        },
+        {
+            "source": "Indian Sugar Industry",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Global Sugar Industry",
+            "target": "Balrampur Chini Mills Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "Global Sugar Industry",
+            "target": "Sugar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "10"
+            }
+        },
+        {
+            "source": "Indian Sugar Industry",
+            "target": "Sugar",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "8"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Ethanol",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "2 billion litres",
+                "Production Start Date": "2017-18"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Bagasse",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "3 tonnes",
+                "Production Start Date": "2017-18"
+            }
+        }
+    ]
+}

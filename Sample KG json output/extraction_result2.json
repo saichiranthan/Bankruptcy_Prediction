@@ -1,0 +1,627 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in a specialized segment of the steel industry, producing special alloy steel, ferro alloys, iron billets, and rolled products. The company's performance has been marred due to the sharp decline in the performance of important customers. The Indian economy is on a path of gradual recovery, and the government has undertaken several steps to unplug the bottlenecks and revive business confidence. However, the steel sector faces headwinds due to significant oversupply, and the company's financial performance is a reflection of the challenges faced by the industry. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ghanshyam Das Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Jugal Kishore Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nirmal Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Mohan Lal Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Mahesh Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nihar Ranjan Hota",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Ramgopal Agarwala",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Nandanandan Mishra",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Raghaw Sharan Pandey",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Gopal Dikshit",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Amrendra Prasad Verma",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Manoj Kumar Agarwal",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Uttara Dasgupta",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Sanjay Dey",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Das & Prasad Chartered Accountants",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Saroj K Babu & Co. Cost Accountants",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Karvy Computershare Pvt. Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Allahabad Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bank of Baroda",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bank of Maharashtra",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Corporation Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "HDFC Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ICICI Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IFCI Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Overseas Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Punjab National Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Punjab & Sind Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Bikaner & Jaipur",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Mysore",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Patiala",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Bank of Travancore",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Syndicate Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "SREI Infrastructure Finance Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UCO Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Union Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Orissa Manganese & Minerals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Crisil",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Mineral Exploration Corporation Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NMDC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Steel Association",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Supreme Court of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Special Alloy Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ferro Alloys",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron Billets",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rolled Products",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron Ore",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Manganese Ore",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Coking Coal",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Coke",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ghanshyam Das Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Chairman",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Jugal Kishore Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nirmal Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Mohan Lal Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Mahesh Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Non-executive Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nihar Ranjan Hota",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ramgopal Agarwala",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Nandanandan Mishra",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Raghaw Sharan Pandey",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Gopal Dikshit",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Amrendra Prasad Verma",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Manoj Kumar Agarwal",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Managing Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Uttara Dasgupta",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Nominee Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Sanjay Dey",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Company Secretary",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Das & Prasad Chartered Accountants",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Statutory Auditors",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Saroj K Babu & Co. Cost Accountants",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Cost Auditors",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Karvy Computershare Pvt. Ltd.",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Registrar & Transfer Agent",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Allahabad Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Bank of Baroda",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Bank of Maharashtra",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Corporation Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "HDFC Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "ICICI Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "IFCI Ltd.",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Indian Overseas Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Punjab National Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Punjab & Sind Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "State Bank of Bikaner & Jaipur",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "State Bank of India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "State Bank of Mysore",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "State Bank of Patiala",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "State Bank of Travancore",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Syndicate Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "SREI Infrastructure Finance Ltd.",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "UCO Bank",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Union Bank of India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Bankers",
+                "Effect": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Orissa Manganese & Minerals Limited",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "",
+                "Acquisition Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Special Alloy Steel",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "",
+                "Production Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Ferro Alloys",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "",
+                "Production Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Iron Billets",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "",
+                "Production Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Rolled Products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "",
+                "Production Start Date": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Iron Ore",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "",
+                "Mention Count": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Manganese Ore",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "",
+                "Mention Count": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Coking Coal",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "",
+                "Mention Count": ""
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Coke",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "",
+                "Mention Count": ""
+            }
+        }
+    ]
+}

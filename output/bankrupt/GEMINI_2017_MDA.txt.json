@@ -1,0 +1,73 @@
+{
+    "summary": "The company, Gemini TSG, has continued to deliver high-quality services to its customers in the telecommunication field. The company has strengthened its team and has been evaluated high on periodic performance measures. However, the company faces challenges due to the slow rate of penetration of mobile services in rural areas and the high pricing of data services. The company is focusing on expanding its customer base to a more global level and has entered into partnership agreements with dealers in Oman. The future looks optimistic for the company, but it needs to be dynamic to re-focus its strategies to build itself on grounds of offering skilled services.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Gemini TSG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "PointRed",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Telecom Services Group",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Telecom Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Cloud Computing",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Mobility Solutions",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Virtualisation",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gemini TSG",
+            "target": "Telecom Services Group",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0.5"
+        },
+        {
+            "source": "Gemini TSG",
+            "target": "Cloud Computing",
+            "relation": "PRODUCES",
+            "production_volume": "100%",
+            "production_start_date": "2022"
+        },
+        {
+            "source": "Telecom Industry",
+            "target": "Gemini TSG",
+            "relation": "MENTIONS",
+            "sentiment": "0.5",
+            "mention_count": "5"
+        },
+        {
+            "source": "PointRed",
+            "target": "Gemini TSG",
+            "relation": "COMPETES_WITH",
+            "market_overlap_percentage": "20%"
+        },
+        {
+            "source": "Telecom Services Group",
+            "target": "Gemini TSG",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "impact_level": "0.8",
+            "impact_type": "Financial",
+            "reason": "Increased revenue"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "summary": "JENSON AND NICHOLSON (INDIA) LIMITED is a company that experienced a decline of 54% in total revenue in FY 2015-16 compared to the previous year. The company did not meet its turnover and profitability targets, but the management expects better growth prospects and operating results in the forthcoming years. The company has a proper internal control system and has taken initiatives to improve performance and productivity levels. The company is committed to the development of its people and has institutionalized a people review process across the organization.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "FY 2015-16",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Jan Dhan program",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Direct Benefit Transfer program",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Swachh Bharat initiative",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian paint industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Sikandrabad factory",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "FY 2015-16",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.2"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Jan Dhan program",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Direct Benefit Transfer program",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Swachh Bharat initiative",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Indian paint industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.2"
+            }
+        },
+        {
+            "source": "JENSON AND NICHOLSON (INDIA) LIMITED",
+            "target": "Sikandrabad factory",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "lower volume",
+                "Production Start Date": "FY 2015-16"
+            }
+        }
+    ]
+}

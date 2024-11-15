@@ -1,0 +1,66 @@
+{
+    "summary": "The company, Jaihind, has maintained its momentum in the highly volatile market. The company has focused on cost control measures and product mix enrichment to sustain growth and profitability in the challenging year. The company has a global outlook and focuses on projects in emerging economies. The company's financial performance for the year 2016-17 is described in the Directors' Report under the head Financial Result. The outlook for the company looks positive with a GDP growth of over 8% expected in F.Y. 2016-17 as per the projections of the Government. However, the company faces various risks such as business risk, market risk, financial risk, legal risk, commodity risk, political risk, exchange rate risk, and physical risk. The company has a strong order book position and is expected to bounce back from the downfall in the infrastructure industry. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Jaihind",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Prakash L. Hinduja",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Reserve Bank of India (RBI)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Goods and Services Tax (GST)",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaihind",
+            "target": "Prakash L. Hinduja",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Chairman & Managing Director",
+                "Start Date": null
+            }
+        },
+        {
+            "source": "Jaihind",
+            "target": "Goods and Services Tax (GST)",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": null,
+                "Production Start Date": "July 2017"
+            }
+        },
+        {
+            "source": "Reserve Bank of India (RBI)",
+            "target": "Jaihind",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Jaihind",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

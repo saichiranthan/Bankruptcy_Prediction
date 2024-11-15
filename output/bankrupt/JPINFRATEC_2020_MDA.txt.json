@@ -1,0 +1,165 @@
+{
+    "summary": "Jaypee Infratech Limited is undergoing Corporate Insolvency Resolution Process. The company's financial performance for the year 2019-20 was affected by the COVID-19 pandemic. The company's toll collection revenue declined due to the pandemic. The company's real estate sector was also impacted due to the pandemic. The company's outlook is positive due to the expected completion of the Jewar International Airport project and other developments in the region. However, the company is currently exposed to liquidity risk. The company's bankruptcy level is 0.6.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Jewar International Airport",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Yamuna Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Real Estate Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "National Company Law Tribunal (NCLT)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Company Law Appellate Tribunal (NCLAT)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Supreme Court of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NBCC (India) Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IDBI Bank Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IIFCL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "LIC of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "decline in toll collection revenue"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Real Estate Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "32757",
+                "production_start_date": "2012"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Jewar International Airport",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "1",
+                "production_start_date": "2023"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Yamuna Expressway",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "1",
+                "production_start_date": "2012"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Jaypee Infratech Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "decline in toll collection revenue"
+            }
+        },
+        {
+            "source": "National Company Law Tribunal (NCLT)",
+            "target": "Jaypee Infratech Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Organizer",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "National Company Law Appellate Tribunal (NCLAT)",
+            "target": "Jaypee Infratech Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Organizer",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "Supreme Court of India",
+            "target": "Jaypee Infratech Limited",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Organizer",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "NBCC (India) Ltd",
+            "target": "Jaypee Infratech Limited",
+            "relation": "OWNS",
+            "properties": {
+                "ownership_percentage": "100",
+                "acquisition_date": "2020"
+            }
+        },
+        {
+            "source": "IDBI Bank Limited",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "20"
+            }
+        },
+        {
+            "source": "IIFCL",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "20"
+            }
+        },
+        {
+            "source": "LIC of India",
+            "target": "Jaypee Infratech Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "20"
+            }
+        }
+    ]
+}

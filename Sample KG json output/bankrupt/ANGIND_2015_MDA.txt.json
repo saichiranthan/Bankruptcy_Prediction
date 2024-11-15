@@ -1,0 +1,77 @@
+{
+    "summary": "ANG Industries Ltd. is a manufacturer of Automotive Components, Tippers, Boiler thermal support and components for the off-Highway. The company's financial performance has been affected by various factors such as depreciation and finance costs. However, the company is expecting a favourable growth in the current financial year. The company has identified various business risks and has devised adequate systems to ensure statutory compliance. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "ANG Industries Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ashok Leyland Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BHEL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NTPC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ISGEC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Confederation of Indian Industry (CII)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Make in India initiative",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Ashok Leyland Ltd",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "BHEL",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "NTPC",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "ISGEC",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Government of India",
+            "target": "Make in India initiative",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "ANG Industries Ltd.",
+            "target": "Make in India initiative",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Confederation of Indian Industry (CII)",
+            "target": "Make in India initiative",
+            "relation": "MENTIONS"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "summary": "The company Easun Reyrolle Limited (ERL) operates in the power generation and transmission and distribution (T&D) sector in India. The industry is facing challenges due to delayed execution of power and T&D projects, high leverage of companies' balance sheets, and slow economic growth. Despite these challenges, ERL is focusing on innovation and development, and has a strong presence in the field of power protection and automation. The company's financial performance has been impacted by slow collection from projects and government sector undertakings, resulting in a net loss of Rs. 3729.33 Lacs. However, the company is optimistic about its future prospects, with the government's focus on the power and T&D sector, and initiatives to drive economic growth. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NDA Government",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "NDA Government",
+            "target": "India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Power Protection & Automation",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010"
+            }
+        }
+    ]
+}

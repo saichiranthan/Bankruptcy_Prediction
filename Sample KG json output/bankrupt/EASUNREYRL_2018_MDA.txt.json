@@ -1,0 +1,134 @@
+{
+    "summary": "Easun Reyrolle Limited is facing losses due to working capital issues caused by the termination of certain projects. However, the company is shifting its focus from projects to equipment manufacturing, which has huge potential due to government initiatives. The company's financial performance is affected by slow collection from projects and government sector undertakings. Despite this, the company's future prospects look positive due to the government's focus on renewable energy and power T&D system reinforcement. The company's bankruptcy level is 0.2.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ministry of Power",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Electricity Board",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "DISCOMs",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Union Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Renewable Energy Projects",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Transmission and Distribution Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Power Generation and T&D Sectors",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Hydro Power Projects",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Solar Rooftop Projects",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Wind Power Projects",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Renewable Energy Projects",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Transmission and Distribution Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY)",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Union Government",
+            "target": "Power Generation and T&D Sectors",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Ministry of Power",
+            "target": "Hydro Power Projects",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "State Electricity Board",
+            "target": "DISCOMs",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "Not specified",
+                "Acquisition Date": "Not specified"
+            }
+        },
+        {
+            "source": "DISCOMs",
+            "target": "Transmission and Distribution Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Government of India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        }
+    ]
+}

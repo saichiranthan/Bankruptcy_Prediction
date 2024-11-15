@@ -1,0 +1,59 @@
+{
+    "summary": "The global economy is on a gradual recovery path, but the Indian economy is projected to grow at 6.4% in FY24. Amara Raja Batteries Limited is the largest player in the automotive aftermarket battery segment in India and has registered a stellar performance in FY23. The company is working towards introducing world-class proprietary 'Duraframe' plate technology and expanding its product portfolio. The auto industry is expected to accelerate into 2024 with cautious optimism, driven by growing income, vehicle penetration, and expanding R&D hub.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Automotive Batteries",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Amaron",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "PowerZone",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Automotive Batteries",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Amaron",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "PowerZone",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global Economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON"
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON"
+        }
+    ]
+}

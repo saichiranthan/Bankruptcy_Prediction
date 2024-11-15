@@ -1,0 +1,73 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a pharmaceutical company that has experienced a decline in growth due to financial constraints, resulting in a net loss of Rs. 19.08 Cr in 2017. Despite this, the company remains optimistic about its future prospects, citing its strong manufacturing facilities, R&D wing, and expanding customer base. The company plans to invest in building its necessary systems and infrastructure to manage its growth and is evaluating options to raise additional funds.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Pharmaceutical industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "R&D",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Pharmaceutical industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "GST",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.4"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "R&D",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015-01-01"
+            }
+        },
+        {
+            "source": "GST",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Increased taxation"
+            }
+        },
+        {
+            "source": "Pharmaceutical industry",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Reputation",
+                "Reason": "Increased demand for pharmaceuticals"
+            }
+        }
+    ]
+}

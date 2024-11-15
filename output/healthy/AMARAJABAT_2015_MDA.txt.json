@@ -1,0 +1,380 @@
+{
+    "summary": "Amara Raja Batteries Limited is an Indian company that manufactures batteries for the automotive and industrial sectors. The company has a strong presence in the Indian market and is expected to grow its sales volumes due to its strong business relations with key customers. The company has also invested heavily in automation solutions and robotics to reduce manpower and improve product quality. The Indian economy is expected to grow at a rate of 7.3% in 2014-15, which is expected to positively impact the company's growth. However, the company may face challenges in meeting large capacities, which could impact its business returns. Overall, the company's financial status and future prospects are positive, with a bankruptcy level of -1.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indus Towers",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bharti Airtel",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bharti Infratel",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Vodafone",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Idea",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Reliance",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Tata Communications",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Viom",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BSNL",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Railways",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Emerson",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Schneider",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Legrand",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Delta",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Socomec",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Eaton",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Johnson Controls Inc.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ford",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Maruti Suzuki",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Hyundai",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Honda",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "M&M",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Tata",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "VE Commercial",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Volvo",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Eicher",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Daimler Benz",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Tafe Tractors",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Isuzu Motors",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "AmaronVoltTM",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Power Stack",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Quanta",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Power SleekTM",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Amaron",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "PowerZone",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian Ocean rim",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian automotive battery market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian IT industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian telecom industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian internet economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian automotive battery market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian IT industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian telecom industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Indian internet economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "AmaronVoltTM",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Power Stack",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Quanta",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Power SleekTM",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Amaron",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "PowerZone",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian automotive battery market",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian IT industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian telecom industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian internet economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand"
+            }
+        },
+        {
+            "source": "Indian automotive battery market",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand"
+            }
+        },
+        {
+            "source": "Indian IT industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand"
+            }
+        },
+        {
+            "source": "Indian telecom industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand"
+            }
+        },
+        {
+            "source": "Indian internet economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Growing demand"
+            }
+        }
+    ]
+}

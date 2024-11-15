@@ -1,0 +1,92 @@
+{
+    "summary": "Alembic Pharmaceuticals Limited has shown resilience in the face of global economic uncertainty, with India's pharmaceutical industry expected to reach $130 billion in value by 2030. The company has a positive outlook for 2023, with a focus on quality manufacturing, affordability of drugs, and adoption of innovation and technology. However, the company faces challenges such as increasing competition, regulatory compliance, and dependence on China for APIs and other pharma products.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Alembic Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "US",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Production Linked Incentive (PLI) scheme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global pharmaceutical sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian pharmaceutical industry",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "India",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0.5"
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Global pharmaceutical sector",
+            "relation": "PRODUCES",
+            "production_volume": "10%",
+            "production_start_date": "2020"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.2",
+            "mention_count": "5"
+        },
+        {
+            "source": "Production Linked Incentive (PLI) scheme",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.5",
+            "mention_count": "3"
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "China",
+            "relation": "COMPETES_WITH",
+            "market_overlap_percentage": "20%"
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.3",
+            "impact_type": "Financial",
+            "reason": "Disruption in supply chain"
+        },
+        {
+            "source": "Production Linked Incentive (PLI) scheme",
+            "target": "Alembic Pharmaceuticals Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "impact_level": "0.5",
+            "impact_type": "Financial",
+            "reason": "Increased domestic manufacturing capacity"
+        }
+    ]
+}

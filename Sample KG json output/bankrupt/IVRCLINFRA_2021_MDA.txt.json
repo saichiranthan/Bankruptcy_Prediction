@@ -1,0 +1,40 @@
+{
+    "summary": "IVRCL Technical Services & Solutions is a company in the infrastructure industry, which has been affected by the COVID-19 pandemic. The company is under liquidation as a going concern and has not received any new contracts during the period. The company's projects are being executed with enhanced monitoring, and it is awaiting opportunities to participate in bidding for new projects. The company has a prolonged period of liquidation as a going concern process and is awaiting successful completion of the sale process. The government's target investment of 100 Lac Crore in the infrastructure industry by 2025 has made the environment for civil and contracting companies more prospective and encouraging.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "IVRCL Technical Services & Solutions",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 Pandemic",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "IVRCL Technical Services & Solutions",
+            "target": "Indian Government",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "COVID-19 Pandemic",
+            "target": "IVRCL Technical Services & Solutions",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.8",
+                "Mention Count": "5"
+            }
+        }
+    ]
+}

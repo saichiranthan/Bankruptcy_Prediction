@@ -1,0 +1,102 @@
+{
+    "summary": "The Amara Raja Batteries Limited is a leading manufacturer of automotive and industrial batteries in India. The company has a strong presence in the Indian battery market and has been growing exponentially. The company's automotive battery division has been expanding its presence in the replacement market and has been catering to the demand of original equipment manufacturers (OEMs). The company's industrial battery division has also been growing and has been catering to the demand of various industries such as telecommunications, power, and railways. The company has been investing in research and development to improve its products and has been expanding its capacity to meet the growing demand. The company's bankruptcy level is -1, indicating that it is a healthy company with a strong financial position and a bright future prospect.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Automotive Battery Division",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Industrial Battery Division",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian Battery Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Telecommunications Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Power Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Railways Industry",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Automotive Battery Division",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Industrial Battery Division",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Indian Battery Market",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "10"
+            }
+        },
+        {
+            "source": "Telecommunications Industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "Power Industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "Railways Industry",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "Indian Battery Market",
+            "target": "Automotive Battery Division",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "5"
+            }
+        },
+        {
+            "source": "Indian Battery Market",
+            "target": "Industrial Battery Division",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "1",
+                "mention_count": "5"
+            }
+        }
+    ]
+}

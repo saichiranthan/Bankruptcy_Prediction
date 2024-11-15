@@ -1,0 +1,144 @@
+{
+    "summary": "The company, C & C Constructions Ltd., is facing financial difficulties due to the challenging business environment and liquidity crunch. The company has undergone debt restructuring in 2013 and is taking steps to improve its liquidity by recovering claims and exploring new jobs. The company's order book stands at ` 2798 crore as of March 31, 2016. The company's financial performance has been impacted by the decline in net sales and increase in finance costs. The company is working to strengthen its internal control systems and risk management. The bankruptcy level of the company is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "C & C Constructions Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Downturn",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Infrastructure Development",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Road Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Transmission Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Urban Infra Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Railway Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Piling Sector",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "National Highways Development Programme (NHDP)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Reserve Bank of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Authority of India (NHAI)",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Global Economic Downturn",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "decline in net sales and increase in finance costs"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Infrastructure Development",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Participant",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Road Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "5162",
+                "production_start_date": "2015-2016"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Transmission Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "920.0",
+                "production_start_date": "2015-2016"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Urban Infra Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "263",
+                "production_start_date": "2015-2016"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Railway Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "331",
+                "production_start_date": "2015-2016"
+            }
+        },
+        {
+            "source": "C & C Constructions Ltd.",
+            "target": "Piling Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "6",
+                "production_start_date": "2015-2016"
+            }
+        },
+        {
+            "source": "National Highways Development Programme (NHDP)",
+            "target": "C & C Constructions Ltd.",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "0.5",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "Reserve Bank of India",
+            "target": "C & C Constructions Ltd.",
+            "relation": "OWNS",
+            "properties": {
+                "ownership_percentage": "0",
+                "acquisition_date": "2013"
+            }
+        },
+        {
+            "source": "Authority of India (NHAI)",
+            "target": "C & C Constructions Ltd.",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "market_overlap_percentage": "0.2"
+            }
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "summary": "Jaihind Projects Limited, an Indian EPC company, has maintained its momentum in a highly volatile market. The company has focused on cost control measures and product mix enrichment to sustain growth and profitability. Despite the challenging year, the company has a strong order book and is expecting numerous opportunities opening up for infrastructure companies. The company is exposed to various risk factors, including financial, technical, construction, policy, and political risks. However, the company is hopeful that it will bounce back from the current downfall. The company has a global outlook and focuses on projects in emerging economies.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Jaihind Projects Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetisation",
+            "type": "EVENT"
+        },
+        {
+            "entity": "RERA",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Insolvency & Bankruptcy Code",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Infrastructure development",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "EPC Sector",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Indian economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "GST",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Demonetisation",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "RERA",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Insolvency & Bankruptcy Code",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "Infrastructure development",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "high",
+                "Production Start Date": "unknown"
+            }
+        },
+        {
+            "source": "Jaihind Projects Limited",
+            "target": "EPC Sector",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "high",
+                "Production Start Date": "unknown"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Jaihind Projects Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "GST",
+            "target": "Jaihind Projects Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Demonetisation",
+            "target": "Jaihind Projects Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "RERA",
+            "target": "Jaihind Projects Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Insolvency & Bankruptcy Code",
+            "target": "Jaihind Projects Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Infrastructure development",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "EPC Sector",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "5"
+            }
+        }
+    ]
+}

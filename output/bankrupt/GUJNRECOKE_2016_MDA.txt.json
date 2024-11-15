@@ -1,0 +1,125 @@
+{
+    "summary": "The global economy is struggling, but India is a bright spot. Gujarat NRE Coke Limited is facing challenges due to the global downturn, but the company is well-prepared to take advantage of the current recovery. The company's income from operations increased, but the net loss was significant. The company is optimistic about the future, with plans to increase production and take advantage of the growing demand for met coke.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Gujarat NRE Coke Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Bank",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "IMF",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "OECD",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Euro Zone",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UK",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Steel Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Domestic Metallurgical Coke Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Met Coke",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Coking Coal",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Global Steel Industry",
+            "relation": "PARTICIPATES_IN",
+            "role": "Participant",
+            "effect": "0.5"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Met Coke",
+            "relation": "PRODUCES",
+            "production_volume": "1000000",
+            "production_start_date": "2015-01-01"
+        },
+        {
+            "source": "Global Steel Industry",
+            "target": "Gujarat NRE Coke Limited",
+            "relation": "MENTIONS",
+            "sentiment": "0.5",
+            "mention_count": "5"
+        },
+        {
+            "source": "China",
+            "target": "Global Steel Industry",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "impact_level": "0.8",
+            "impact_type": "Financial",
+            "reason": "Dumping of steel"
+        },
+        {
+            "source": "India",
+            "target": "Gujarat NRE Coke Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "impact_level": "0.6",
+            "impact_type": "Financial",
+            "reason": "Growing demand for met coke"
+        },
+        {
+            "source": "World Bank",
+            "target": "Indian Economy",
+            "relation": "MENTIONS",
+            "sentiment": "0.8",
+            "mention_count": "3"
+        },
+        {
+            "source": "IMF",
+            "target": "Indian Economy",
+            "relation": "MENTIONS",
+            "sentiment": "0.7",
+            "mention_count": "2"
+        }
+    ]
+}

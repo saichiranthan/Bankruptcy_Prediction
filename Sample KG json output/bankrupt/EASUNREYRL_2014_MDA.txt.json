@@ -1,0 +1,53 @@
+{
+    "summary": "The company's growth was affected by many factors like volatility in commodity prices, exchange cost, higher interest cost, etc. The uncertain macro-economic environment also affected the company, especially in the power sector. The company has invested 82% equity and ownership in Electrical Distribution Solutions Pty Limited (EDS) Australia. The company has also made inroads in a number of export markets in conjunction with ERL Switchcraft Europe GmbH, its German Subsidiary. The company has successfully completed the fund raising exercise and raised paid up capital. The company is taking all efforts to increase its efficiency by way of cost reduction, selection of orders with good margins and Exports Orders, etc. The bankruptcy level of the company is 0.2 due to the poor financial position of most of the electrical utilities in India, which has resulted in higher receivables, cost over runs and higher finance cost. However, the company's future prospects are positive due to its strategic acquisition and successful fund raising exercise.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "ERL India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Electrical Distribution Solutions Pty Limited (EDS)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "ERL Switchcraft Europe GmbH",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Energex Limited",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ERL India",
+            "target": "Electrical Distribution Solutions Pty Limited (EDS)",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "82%",
+                "Acquisition Date": "July, 2013"
+            }
+        },
+        {
+            "source": "ERL India",
+            "target": "ERL Switchcraft Europe GmbH",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "",
+                "Acquisition Date": ""
+            }
+        },
+        {
+            "source": "ERL India",
+            "target": "Energex Limited",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "",
+                "Production Start Date": ""
+            }
+        }
+    ]
+}

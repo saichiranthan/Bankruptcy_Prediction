@@ -1,0 +1,13 @@
+tqdm
+matplotlib
+numpy
+pandas
+nltk
+spacy
+sckit-learn
+transformers
+gensim
+textblob
+transformers
+rouge_score
+nltk

@@ -1,0 +1,132 @@
+{
+    "summary": "Indosolar is an Indian company that produces photovoltaic solar cells. The company's financial performance has improved in the last year, with net sales increasing by 72% and EBITDA increasing by 607%. The company's production capacity has also increased, with 195 MWp of photovoltaic solar cells produced in the last year. However, the company faces risks and concerns, including delays in the tendering process, non-utilization of available manufacturing capacity, and the impact of Chinese competition on the market. The company's management has implemented a risk management policy to mitigate these risks. The company's future outlook is positive, with the Indian solar market expected to grow significantly in the coming years. The company's bankruptcy level is 0.6, indicating a moderate level of bankruptcy risk.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Indosolar",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Solar Parks",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Net Metering",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rooftop Solar",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Solar PV",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global Solar Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Solar Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Indosolar",
+            "target": "Global Solar Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Indian Solar Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Solar Parks",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "195 MWp",
+                "Production Start Date": "2016"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Net Metering",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "10 MWp",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Indosolar",
+            "target": "Rooftop Solar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "5 MWp",
+                "Production Start Date": "2017"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Indian Solar Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.9"
+            }
+        },
+        {
+            "source": "Global Solar Industry",
+            "target": "Indosolar",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.4",
+                "Impact Type": "Financial",
+                "Reason": "Chinese competition"
+            }
+        },
+        {
+            "source": "Indian Solar Market",
+            "target": "Indosolar",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Government support"
+            }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "summary": "Amara Raja Batteries Limited, a leading manufacturer of lead-acid batteries in India, faced a challenging year in 2019-20 due to the global economic downturn and the COVID-19 pandemic. Despite this, the company put up a healthy show, with a strong distribution network and a wide range of products. The Indian economy slowed down in sync with the global economic turmoil, with a growth rate of 4.2% in 2019-20, and the lead-acid battery market is expected to de-grow in FY21 due to the COVID-19 impact. However, the company is well-positioned to rebound, with a strong foundation and a diversified product portfolio. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19 pandemic",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Lead-acid battery",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global economy",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "COVID-19 pandemic",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "Global economic downturn and COVID-19 pandemic"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Lead-acid battery",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "Not specified",
+                "production_start_date": "Not specified"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Indian economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.9",
+                "impact_type": "Financial",
+                "reason": "Global economic downturn and COVID-19 pandemic"
+            }
+        },
+        {
+            "source": "COVID-19 pandemic",
+            "target": "Global economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.9",
+                "impact_type": "Financial",
+                "reason": "Global economic downturn and COVID-19 pandemic"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "0.5",
+                "mention_count": "5"
+            }
+        }
+    ]
+}

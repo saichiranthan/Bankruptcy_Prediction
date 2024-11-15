@@ -1,0 +1,98 @@
+{
+    "summary": "Gallantt Ispat Limited is an Indian steel company that has faced challenges in the steel industry due to excess capacity and low demand. Despite these challenges, the company has maintained its balance sheet strength and operational efficiency. The company is working towards expanding its capacity and improving its quality and productivity to remain competitive. The Indian government's initiatives and reforms have built a platform for a quantum leap ahead, and the company is committed to achieving benchmark quality and expanding its capacity.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Gallantt Ispat Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Government",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel Industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Wheat Products",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "GST",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Brexit",
+            "type": "EVENT"
+        },
+        {
+            "entity": "United States Presidential Elections",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Steel Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "97.4 million tonnes",
+                "Production Start Date": "FY 2016-17"
+            }
+        },
+        {
+            "source": "Indian Government",
+            "target": "GST",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "GST",
+            "target": "Gallantt Ispat Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Lower input costs and unified tax rate"
+            }
+        },
+        {
+            "source": "Brexit",
+            "target": "Global Economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.3",
+                "Impact Type": "Financial",
+                "Reason": "Policy uncertainty and trade disruptions"
+            }
+        },
+        {
+            "source": "United States Presidential Elections",
+            "target": "Global Economy",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.3",
+                "Impact Type": "Financial",
+                "Reason": "Policy uncertainty and trade disruptions"
+            }
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Indian Government",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.2"
+            }
+        }
+    ]
+}

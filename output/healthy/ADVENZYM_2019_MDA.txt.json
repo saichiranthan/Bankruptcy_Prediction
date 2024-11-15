@@ -1,0 +1,99 @@
+{
+    "summary": "The Indian economy is likely to sustain its rebound in FY2018-19 with growth projected to be in the 7.2% to 7.5% range. Advanced Enzyme Technologies Limited (AETL) is India's largest enzyme company, engaged in the research and development, manufacturing, and marketing of enzymes and probiotics. AETL has a strong presence in the global enzyme market, with a diverse product portfolio and a commitment to providing eco-safe solutions to various industries. The company's financial performance has been strong, with revenue and PAT growth in FY 2018-19. The company's subsidiaries, including Advanced Enzymes USA, Advanced Supplementary Technologies Corporation, Cal-India Foods International, and Enzyme Innovation, Inc., contribute to its global presence and product offerings. The company's bankruptcy level is -1, indicating a healthy financial status.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Advanced Enzyme Technologies Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Enzyme Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Probiotics",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Advanced Enzymes USA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Advanced Supplementary Technologies Corporation",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Cal-India Foods International",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Enzyme Innovation, Inc.",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Indian Economy",
+            "relation": "PARTICIPATES_IN",
+            "Role": "Participant",
+            "Effect": "0.5"
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Global Enzyme Market",
+            "relation": "PRODUCES",
+            "Production Volume": "400+",
+            "Production Start Date": "1985"
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "Impact Level": "0.7",
+            "Impact Type": "Financial",
+            "Reason": "Strong financial performance"
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Probiotics",
+            "relation": "PRODUCES",
+            "Production Volume": "68",
+            "Production Start Date": "2010"
+        },
+        {
+            "source": "Advanced Enzymes USA",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "OWNS",
+            "Ownership Percentage": "100%",
+            "Acquisition Date": "2010"
+        },
+        {
+            "source": "Advanced Supplementary Technologies Corporation",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "OWNS",
+            "Ownership Percentage": "100%",
+            "Acquisition Date": "2012"
+        },
+        {
+            "source": "Cal-India Foods International",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "OWNS",
+            "Ownership Percentage": "100%",
+            "Acquisition Date": "2011"
+        },
+        {
+            "source": "Enzyme Innovation, Inc.",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "OWNS",
+            "Ownership Percentage": "100%",
+            "Acquisition Date": "2014"
+        }
+    ]
+}

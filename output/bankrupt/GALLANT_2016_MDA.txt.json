@@ -1,0 +1,116 @@
+{
+    "summary": "Gallantt Ispat Limited's financial performance for the year 2015-16 was positive, with the company's steel demand expected to increase by 5.4% in both 2016 and 2017. The company's Make in India initiative has been a success, with FDI inflows increasing by 37% after its launch. However, the company faces threats such as rising fuel prices, stiff competition, and slowdown in demand. The company's risk management process involves periodic identification of risks and implementation of risk mitigation plans. The company's outlook is positive, with a focus on improving quality and productivity to get more orders at competitive rates.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Gallantt Ispat Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Make in India",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Wheat products",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Global economic slowdown",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian steel industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "US economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Make in India",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Steel",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Gallantt Ispat Limited",
+            "target": "Wheat products",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Global economic slowdown",
+            "target": "Gallantt Ispat Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Reduced demand"
+            }
+        },
+        {
+            "source": "Make in India",
+            "target": "Gallantt Ispat Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Increased FDI inflows"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Gallantt Ispat Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Indian steel industry",
+            "target": "Gallantt Ispat Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "US economy",
+            "target": "Gallantt Ispat Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

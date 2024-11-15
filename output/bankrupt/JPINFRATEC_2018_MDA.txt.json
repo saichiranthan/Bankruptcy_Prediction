@@ -1,0 +1,90 @@
+{
+    "summary": "Jaypee Infratech Ltd is currently facing financial difficulties due to the Corporate Insolvency Resolution Process (CIRP). The company's financial performance for the year 2017-18 was affected by the CIRP, with a net loss of ` 102.29 Crores. However, the company's outlook for 2018-19 looks positive, subject to macro-economic stability. The company's real estate sector is also expected to benefit from the Jewar International airport project and other developments in the NCR region. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Jaypee Healthcare Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Corporate Insolvency Resolution Process",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Jewar International airport project",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Real Estate (Regulation & Development) Act, 2016",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Yamuna Expressway Project",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Ltd",
+            "target": "Corporate Insolvency Resolution Process",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "-0.8"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Ltd",
+            "target": "Jewar International airport project",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.6",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Ltd",
+            "target": "Real Estate (Regulation & Development) Act, 2016",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.4",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Ltd",
+            "target": "Yamuna Expressway Project",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "26140 PCUs",
+                "Production Start Date": "16.08.2012"
+            }
+        },
+        {
+            "source": "Corporate Insolvency Resolution Process",
+            "target": "Jaypee Infratech Ltd",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Financial difficulties"
+            }
+        },
+        {
+            "source": "Jewar International airport project",
+            "target": "Jaypee Infratech Ltd",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Increased toll collection"
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "summary": "Easun Reyrolle Limited's financial performance was affected by the economic slowdown in the power generation, industry and infrastructure sectors. The company's revenue from operations decreased to Rs.3,259.90 Lacs, and it incurred a net loss of Rs.4,859.69 Lacs. However, the government's initiatives such as the UDAY Scheme and amendments in National Tariff Policy are expected to improve the market conditions. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UDAY Scheme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "National Tariff Policy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "24x7 Power for All Scheme",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Smart Cities and Digital India campaign",
+            "type": "EVENT"
+        },
+        {
+            "entity": "China Southern Power Grid International (HK Company Ltd.)",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "CLP India Private Ltd.",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "NTPC Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Solar Energy Corporation of India (SECI)",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "UDAY Scheme",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "National Tariff Policy",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "24x7 Power for All Scheme",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Smart Cities and Digital India campaign",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "China Southern Power Grid International (HK Company Ltd.)",
+            "target": "Easun Reyrolle Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.3"
+            }
+        },
+        {
+            "source": "CLP India Private Ltd.",
+            "target": "Easun Reyrolle Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.2"
+            }
+        },
+        {
+            "source": "NTPC Limited",
+            "target": "Easun Reyrolle Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.2"
+            }
+        },
+        {
+            "source": "Solar Energy Corporation of India (SECI)",
+            "target": "Easun Reyrolle Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.1"
+            }
+        },
+        {
+            "source": "Economic Slowdown",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Decreased revenue from operations and increased net loss"
+            }
+        }
+    ]
+}

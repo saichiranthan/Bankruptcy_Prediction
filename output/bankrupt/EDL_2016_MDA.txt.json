@@ -1,0 +1,85 @@
+{
+    "summary": "The Indian liquor market is growing, but the IMFL industry faces challenges like restrictive policies and increasing raw material prices. The company, Empee Distilleries Limited, introduced new premium brands and is planning to expand its business. However, the company's financial performance and outlook are affected by government regulations and rising input costs. The company has an internal control system in place and is reviewing its findings to enable immediate action. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Empee Distilleries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian Liquor Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "IMFL",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Chevalier De Paris - XL Premium Brandy",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Carte Royale \u2013 XO Premium Brandy",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Indian Liquor Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "1"
+            }
+        },
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "IMFL",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "47,48,459 cases",
+                "Production Start Date": "2015"
+            }
+        },
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Chevalier De Paris - XL Premium Brandy",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "2015"
+            }
+        },
+        {
+            "source": "Empee Distilleries Limited",
+            "target": "Carte Royale \u2013 XO Premium Brandy",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "2015"
+            }
+        },
+        {
+            "source": "Indian Liquor Market",
+            "target": "Empee Distilleries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "1",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Government Regulations",
+            "target": "Empee Distilleries Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Restrictive policies and increasing raw material prices"
+            }
+        }
+    ]
+}

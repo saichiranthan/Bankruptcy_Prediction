@@ -1,0 +1,105 @@
+{
+    "summary": "CEAT Limited's financial performance has improved with a growth in revenue and EBITDA margin. The company has seen a decline in material costs and an increase in product mix, leading to a 21.22% increase in EBITDA. However, the company's export segment has shown a de-growth of 24.78% due to increasing radialization and currency depreciation. The company's bankruptcy level is -1, indicating a healthy financial status.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "CEAT Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Renault",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Nissan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Honda",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Royal Enfield",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Mahindra TUV 300",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Renault Kwid",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "IPL",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "CEAT Limited",
+            "target": "Renault",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Nissan",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Honda",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Royal Enfield",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Mahindra TUV 300",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015-01-01"
+            }
+        },
+        {
+            "source": "CEAT Limited",
+            "target": "Renault Kwid",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2015-01-01"
+            }
+        },
+        {
+            "source": "IPL",
+            "target": "CEAT Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

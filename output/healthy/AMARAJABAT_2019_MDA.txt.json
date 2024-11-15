@@ -1,0 +1,67 @@
+{
+    "summary": "The global economy has slowed down, and India's economy has also experienced a slowdown. However, India remains the world's fastest-growing major economy. Amara Raja Batteries Limited is a leading manufacturer of lead-acid batteries and has a strong presence in the Indian market. The company has registered healthy growth in battery sales despite the lackluster environment in the automotive sector. The company's bankruptcy level is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Lead-Acid Batteries",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Lithium-ion Batteries",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Lead-Acid Batteries",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "High",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Global Economy",
+            "target": "Indian Economy",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Global Economy",
+            "target": "Amara Raja Batteries Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.2",
+                "Impact Type": "Financial",
+                "Reason": "Slowdown in the automotive sector"
+            }
+        }
+    ]
+}

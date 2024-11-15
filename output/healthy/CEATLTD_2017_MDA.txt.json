@@ -1,0 +1,87 @@
+{
+    "summary": "CEAT LIMITED's tyre industry revenues grew at a steady CAGR of 8% from FY 2010-11 to FY 2015-16. However, revenue growth as well as profit growth was adversely affected in FY 2016-17 due to demand compression because of factors, such as demonetisation and subdued realisation due to spike in raw material prices. The company's financial status is stable, but the future prospects are uncertain due to the increasing competition from Chinese imports and the impact of demonetisation on the industry.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "CEAT LIMITED",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Demonetisation",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Tyres",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Chinese Imports",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Commercial Vehicles",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Passenger Vehicles",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Two-Wheelers",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Tractors",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "CEAT LIMITED",
+            "target": "Demonetisation",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Demand compression due to demonetisation"
+            }
+        },
+        {
+            "source": "CEAT LIMITED",
+            "target": "Chinese Imports",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.3"
+            }
+        },
+        {
+            "source": "CEAT LIMITED",
+            "target": "Tyres",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000000",
+                "Production Start Date": "2010-01-01"
+            }
+        },
+        {
+            "source": "Demonetisation",
+            "target": "CEAT LIMITED",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Demand compression due to demonetisation"
+            }
+        },
+        {
+            "source": "Chinese Imports",
+            "target": "CEAT LIMITED",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.3"
+            }
+        }
+    ]
+}

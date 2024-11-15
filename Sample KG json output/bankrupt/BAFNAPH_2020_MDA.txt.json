@@ -1,0 +1,70 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a pharmaceutical company that has witnessed a decline in its revenue and net loss in the year 2020. The company has a global footprint with product approvals and pending registrations in various countries. The company's internal control systems are reasonable, and it has a strong focus on human resources and industrial relations. However, the company's financial performance is a concern, and it needs to take measures to improve its revenue and reduce its losses. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "International Monetary Fund",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "US Food and Drug Administration",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bafna Mahaveer Chand",
+            "type": "PERSON"
+        },
+        {
+            "entity": "Soleti Associates",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Bafna Mahaveer Chand",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Chairman & Managing Director",
+                "Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "COVID-19",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "Negative"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "COVID-19",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "-0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

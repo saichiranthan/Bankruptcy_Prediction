@@ -1,0 +1,106 @@
+{
+    "summary": "The global economy experienced a slump in FY20 due to reduced global trade and investments. Advanced Enzyme Technologies Limited is expected to revive in FY21 with gradual improvement in investments and global trade. The company's bankruptcy level is -1, indicating a healthy company. The Indian economy's GDP grew at a rate of 5% in FY20 and is anticipated to rise to 6-6.5% in FY21. The company's financial status is stable, and its future prospects are positive.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Advanced Enzyme Technologies Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "COVID-19",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Enzymes Market",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Food Enzymes Market",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Feed Enzymes Market",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Industrial Enzymes Market",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Global Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Indian Economy",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0"
+            }
+        },
+        {
+            "source": "COVID-19",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.5",
+                "Impact Type": "Financial",
+                "Reason": "Reduced global trade and investments"
+            }
+        },
+        {
+            "source": "Global Enzymes Market",
+            "target": "Advanced Enzyme Technologies Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Food Enzymes Market",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2020-01-01"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Feed Enzymes Market",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "500",
+                "Production Start Date": "2020-01-01"
+            }
+        },
+        {
+            "source": "Advanced Enzyme Technologies Limited",
+            "target": "Industrial Enzymes Market",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "2000",
+                "Production Start Date": "2020-01-01"
+            }
+        }
+    ]
+}

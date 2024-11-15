@@ -1,0 +1,80 @@
+{
+    "summary": "The company's performance was affected by a subdued business environment. The company has mitigation strategies in place to address risk emanating from prevailing economic uncertainties and volatility in business environment. The company continues to invest in the future on products that would improve the market share in the longer term. However, the company suffered a major setback due to the closure of its Sitarganj plant by order of National Green Tribunal, New Delhi (NGT). The company's bankruptcy level is 0.5.",
+    "bankruptcy_level": {
+        "lvl": "0.5"
+    },
+    "entities": [
+        {
+            "entity": "ANG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "National Green Tribunal, New Delhi (NGT)",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Commercial Vehicle Industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Automotive Components",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Indian Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "ANG",
+            "target": "National Green Tribunal, New Delhi (NGT)",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "Closure of Sitarganj plant"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Commercial Vehicle Industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "N/A",
+                "production_start_date": "N/A"
+            }
+        },
+        {
+            "source": "ANG",
+            "target": "Automotive Components",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "N/A",
+                "production_start_date": "N/A"
+            }
+        },
+        {
+            "source": "Indian Economy",
+            "target": "ANG",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "0.5",
+                "mention_count": "2"
+            }
+        },
+        {
+            "source": "Global Economy",
+            "target": "ANG",
+            "relation": "MENTIONS",
+            "properties": {
+                "sentiment": "0.3",
+                "mention_count": "1"
+            }
+        }
+    ]
+}

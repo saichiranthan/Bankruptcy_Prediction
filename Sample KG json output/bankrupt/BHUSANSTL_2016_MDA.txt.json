@@ -1,0 +1,185 @@
+{
+    "summary": "Bhushan Steel Limited is a steel company that has been performing satisfactorily, with a strong operational performance and a wide range of value-added products. The company has a strong customer relationship with OEMs and a distribution network. However, the steel industry in India is facing challenges due to rising imports and the company is taking steps to mitigate these risks. The company's financial performance has been satisfactory, with a turnover of Rs. 13124.07 crores and a profit before tax of Rs. 1389.05 crores. The company's bankruptcy level is -1, indicating that it is a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Bhushan Steel Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BHP Billiton",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Coal India Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Mahanadi Coal Fields",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Siemens",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "SMS Siemag",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Paul Wurth",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "L&T",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Maruti Suzuki",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Tata Motors",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Honda Cars",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Mahindra & Mahindra",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Ashok Leyland",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "LG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Samsung",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Videocon",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Haier",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bhushan Energy",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "India",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "China",
+            "relation": "COMPETES_WITH"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "BHP Billiton",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Coal India Limited",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Mahanadi Coal Fields",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Siemens",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "SMS Siemag",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Paul Wurth",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "L&T",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Maruti Suzuki",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Tata Motors",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Honda Cars",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Mahindra & Mahindra",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Ashok Leyland",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "LG",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Samsung",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Videocon",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Haier",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bhushan Steel Limited",
+            "target": "Bhushan Energy",
+            "relation": "OWNS"
+        }
+    ]
+}

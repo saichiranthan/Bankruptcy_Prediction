@@ -1,0 +1,75 @@
+{
+    "summary": "Adhunik Metaliks Limited operates in the steel industry, producing special alloy steel, ferro alloys, iron billets, and rolled products. The company's performance was affected by the decline in the performance of its major customers. The Indian economy is on a path of gradual recovery, and the government has undertaken several steps to unplug the bottlenecks and revive business confidence. Adhunik Metaliks Limited has put in place several building blocks to enhance operating efficiency, optimize costs, and shift to a better product mix for higher value addition. The company's long-term strategy includes globally competitive operations, cost competitiveness, and sustained operational excellence. The company's financial performance was affected by external industry factors, and it incurred a pre-tax loss of Rs. 760.81 Crores. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Adhunik Metaliks Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Indian economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Steel industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Special alloy steel",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Ferro alloys",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Iron billets",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Rolled products",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Steel industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Adhunik Metaliks Limited",
+            "target": "Special alloy steel",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Indian economy",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Steel industry",
+            "target": "Adhunik Metaliks Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Decline in the performance of major customers"
+            }
+        }
+    ]
+}

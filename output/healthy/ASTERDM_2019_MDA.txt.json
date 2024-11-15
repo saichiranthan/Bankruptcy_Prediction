@@ -1,0 +1,146 @@
+{
+    "summary": "The global economy is expected to grow at a rate of 3.3% in 2019, with the US and China being the major contributors. The GCC economies are also expected to grow, driven by increased oil revenues and fiscal reforms. The Indian economy is expected to grow at a rate of 7.7% in 2020-21, driven by robust private consumption and a more expansionary fiscal stance. The healthcare industry is expected to grow globally, driven by an aging population, advances in treatments and health technologies, and an increase in healthcare spending. Aster DM Healthcare Limited is well-positioned to benefit from these trends, with a strong presence in the GCC and India. However, the company faces challenges such as intense competition, regulatory changes, and economic uncertainties. The bankruptcy level of the company is -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Aster DM Healthcare Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economic Overview",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GCC Economic Overview",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian Economic Overview",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Global Healthcare Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "GCC Healthcare Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "UAE Healthcare Industry",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Global Economic Overview",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "GCC Economic Overview",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Indian Economic Overview",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "Global Healthcare Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "GCC Healthcare Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Aster DM Healthcare Limited",
+            "target": "UAE Healthcare Industry",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Global Economic Overview",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "GCC Economic Overview",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Indian Economic Overview",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Global Healthcare Industry",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "GCC Healthcare Industry",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "UAE Healthcare Industry",
+            "target": "Aster DM Healthcare Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        }
+    ]
+}

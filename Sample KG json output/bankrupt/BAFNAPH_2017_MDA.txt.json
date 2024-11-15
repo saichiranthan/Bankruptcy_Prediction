@@ -1,0 +1,78 @@
+{
+    "summary": "Bafna Pharmaceuticals Limited is a pharmaceutical company that is in growth/expansion mode requiring further investment. The company has achieved growth in the past few years and is well-equipped to meet future challenges. However, the company is facing financial constraints and has reported a decline in revenue and operating income. The company is evaluating various options to raise additional funds and is focusing on increasing revenue from contract manufacturing in regulated markets and expanding to new geographies.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bafna Mahaveer Chand",
+            "type": "PERSON"
+        },
+        {
+            "entity": "International Monetary Fund",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Pharmaceuticals Export Promotion Council of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Gaurav Jain",
+            "type": "PERSON"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Bafna Mahaveer Chand",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Chairman & Managing Director",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "Gaurav Jain",
+            "relation": "EMPLOYS",
+            "properties": {
+                "Job Title": "Independent Auditor",
+                "Start Date": ""
+            }
+        },
+        {
+            "source": "International Monetary Fund",
+            "target": "World Economic Outlook",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Pharmaceuticals Export Promotion Council of India",
+            "target": "Bafna Pharmaceuticals Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "10%"
+            }
+        },
+        {
+            "source": "Bafna Pharmaceuticals Limited",
+            "target": "GST (Goods and Services Tax) Bill",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

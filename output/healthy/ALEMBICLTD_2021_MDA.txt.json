@@ -1,0 +1,93 @@
+{
+    "summary": "Alembic Pharmaceuticals Limited is a leading Indian pharmaceutical company that has demonstrated diversity in terms of therapeutic areas and geographies. The company has a wide range of products across several major therapeutic categories and is working to establish its presence within more therapy areas. The company's specialty segment has yielded rich dividends and its large product portfolio helps it maintain and continuously augment its market share. The company is one of India's most trusted providers of specialty medicines for various chronic and acute therapies. The company's future readiness depends vitally on its research and development (R&D) capabilities, and it is strengthening its R&D core through prudent investments. The company is building new capabilities and investing in R&D projects with better risk-return profiles. The company's bankruptcy level is -1, indicating that it is a healthy company with no signs of bankruptcy.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Alembic Pharmaceuticals Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Azithromycin",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "USFDA",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Rhizen Pharmaceuticals AG",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "TG Therapeutics",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "UKONIQ",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "COVID-19",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "impact_level": "0.8",
+                "impact_type": "Financial",
+                "reason": "Increased demand for Azithromycin"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Azithromycin",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "High",
+                "production_start_date": "2020"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "USFDA",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Participant",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "Alembic Pharmaceuticals Limited",
+            "target": "Rhizen Pharmaceuticals AG",
+            "relation": "OWNS",
+            "properties": {
+                "ownership_percentage": "50%",
+                "acquisition_date": "2014"
+            }
+        },
+        {
+            "source": "Rhizen Pharmaceuticals AG",
+            "target": "TG Therapeutics",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "role": "Participant",
+                "effect": "0.5"
+            }
+        },
+        {
+            "source": "TG Therapeutics",
+            "target": "UKONIQ",
+            "relation": "PRODUCES",
+            "properties": {
+                "production_volume": "High",
+                "production_start_date": "2020"
+            }
+        }
+    ]
+}

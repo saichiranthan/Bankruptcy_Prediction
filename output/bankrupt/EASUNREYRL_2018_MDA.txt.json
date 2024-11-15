@@ -1,0 +1,155 @@
+{
+    "summary": "The company, Easun Reyrolle Limited, is facing losses due to working capital issues and termination of certain projects. However, the company has shifted its focus to equipment manufacturing, which has huge potential due to the government's renewable energy targets. The company's financial performance has been affected by slow collection from projects and government sector undertakings, resulting in a net loss before other comprehensive income of Rs. (2146 lakhs) on a standalone basis and Rs. (1560 lakhs) on a consolidated basis. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Easun Reyrolle Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Government of India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "State Electricity Board",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "DISCOMs",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Renewable Energy Targets",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Transmission and Distribution Market",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Equipment Manufacturing",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Solar Power",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Wind Power",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Renewable Energy Targets",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Transmission and Distribution Market",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.6"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Renewable Energy Targets",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Organizer",
+                "Effect": "0.9"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Equipment Manufacturing",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "1000",
+                "Production Start Date": "2018-01-01"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Solar Power",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "500",
+                "Production Start Date": "2018-01-01"
+            }
+        },
+        {
+            "source": "Easun Reyrolle Limited",
+            "target": "Wind Power",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "500",
+                "Production Start Date": "2018-01-01"
+            }
+        },
+        {
+            "source": "Renewable Energy Targets",
+            "target": "Easun Reyrolle Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.8",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Transmission and Distribution Market",
+            "target": "Easun Reyrolle Limited",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.6",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "Government of India",
+            "target": "Easun Reyrolle Limited",
+            "relation": "OWNs",
+            "properties": {
+                "Ownership Percentage": "0",
+                "Acquisition Date": "null"
+            }
+        },
+        {
+            "source": "State Electricity Board",
+            "target": "Easun Reyrolle Limited",
+            "relation": "COMPETES_WITH",
+            "properties": {
+                "Market Overlap Percentage": "0.4"
+            }
+        },
+        {
+            "source": "Renewable Energy Targets",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_POSITIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.8",
+                "Impact Type": "Financial",
+                "Reason": "Increased demand for renewable energy"
+            }
+        },
+        {
+            "source": "Transmission and Distribution Market",
+            "target": "Easun Reyrolle Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Decreased demand for transmission and distribution services"
+            }
+        }
+    ]
+}

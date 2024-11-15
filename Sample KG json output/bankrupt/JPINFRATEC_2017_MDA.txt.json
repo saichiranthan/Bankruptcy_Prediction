@@ -1,0 +1,105 @@
+{
+    "summary": "Jaypee Infratech Limited is a real estate company that has 25 million square meters of land for development across five locations in Uttar Pradesh. The company has launched several projects, including the Yamuna Expressway and Jaypee Hospital, but is facing liquidity issues and piling debt. The company's debt restructuring plan is currently under consideration by the lenders. Despite the challenges, the company is positive about its long-term outlook.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Jaypee Infratech Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Jaypee Healthcare Ltd",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Jaypee Hospital",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Yamuna Expressway",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Jewar International airport",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Real Estate (Regulation and Development) Act, 2016",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Goods and Services Tax",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Demonetization",
+            "type": "EVENT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Jaypee Healthcare Ltd",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100%",
+                "Acquisition Date": "N/A"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Jaypee Hospital",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "N/A",
+                "Production Start Date": "2015-16"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Yamuna Expressway",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "N/A",
+                "Production Start Date": "2012"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Jewar International airport",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "1"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Real Estate (Regulation and Development) Act, 2016",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Goods and Services Tax",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Jaypee Infratech Limited",
+            "target": "Demonetization",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        }
+    ]
+}

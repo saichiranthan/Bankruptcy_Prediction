@@ -1,0 +1,159 @@
+{
+    "summary": "Gujarat NRE Coke Limited is facing a critical situation due to the global economic downturn and the decline in demand for met coke. The company's income from operations has decreased significantly, and it has reported a net loss. However, the company is hopeful that the new government's reforms and growth-oriented policies will improve the market condition in the later part of the year. The company is also exploring options to counter the Chinese threat and has filed applications for imposition of anti-dumping and safeguard duty. The company's bankruptcy level is 0.2, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.2"
+    },
+    "entities": [
+        {
+            "entity": "Gujarat NRE Coke Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Arun Kumar Jagatramka",
+            "type": "PERSON"
+        },
+        {
+            "entity": "P R Kannan",
+            "type": "PERSON"
+        },
+        {
+            "entity": "IMF",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "China",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "United States",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Japan",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "BRIC",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Middle East",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Western Europe",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Metallurgical Coke Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Domestic Met Coke Industry",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Met Coke",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Coking Coal",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Arun Kumar Jagatramka",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "P R Kannan",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Domestic Met Coke Industry",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Met Coke",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Gujarat NRE Coke Limited",
+            "target": "Coking Coal",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "Global Metallurgical Coke Industry",
+            "target": "Gujarat NRE Coke Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Domestic Met Coke Industry",
+            "target": "Gujarat NRE Coke Limited",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "IMF",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "China",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "India",
+            "target": "Domestic Met Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "United States",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Europe",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Japan",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "BRIC",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Middle East",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Western Europe",
+            "target": "Global Metallurgical Coke Industry",
+            "relation": "MENTIONS"
+        }
+    ]
+}

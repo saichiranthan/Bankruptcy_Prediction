@@ -1,0 +1,17 @@
+Bankruptcy Prediction Report
+==============================
+Summary:
+ABG Shipyard Limited's annual report for 2012-2013 highlights the company's compliance with corporate governance. The report also discusses the market trends and economy, industry overview, and outlook. The Indian shipbuilding industry is expected to grow at a CAGR of 8% and reach ` 9,200 crore by 2015. However, the industry faces challenges such as high equipment costs and lack of economies of scale. The company's financial status and future prospects are not explicitly mentioned in the report. Based on the overall sentiment of the report, the company's bankruptcy level is estimated to be around 0.2.
+
+Bankruptcy Prediction Level: {'level': '0.2'}
+
+Entities:
+  - ABG Shipyard Limited (COMPANY)
+  - Indian Economy (EVENT)
+  - Global Shipbuilding Industry (EVENT)
+  - Shipbuilding and Ship Repair Industry (PRODUCT)
+
+Relations:
+  - ABG Shipyard Limited PARTICIPATES_IN Indian Economy
+  - ABG Shipyard Limited PARTICIPATES_IN Global Shipbuilding Industry
+  - ABG Shipyard Limited PRODUCES Shipbuilding and Ship Repair Industry

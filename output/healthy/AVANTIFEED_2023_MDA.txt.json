@@ -1,0 +1,77 @@
+{
+    "summary": "Avanti Feeds Limited, a pioneer in the Indian Shrimp Industry, has been facing challenges due to high inflation, COVID-19, and the Ukraine-Russia war. Despite these challenges, the company remains confident in its ability to address these issues and mitigate their impact on its operations. The company has a strong and long-lasting collaboration with Thai Union and has built a strong PAN-India feed dealership network. Avanti Feeds is strategically focusing on exploring new export markets for both shrimp feed and shrimp exports. The company's bankruptcy level is 0.6, indicating a critical situation.",
+    "bankruptcy_level": {
+        "lvl": "0.6"
+    },
+    "entities": [
+        {
+            "entity": "Avanti Feeds Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Thai Union",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "COVID-19",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Ukraine-Russia war",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Shrimp Feed",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Thai Union",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.8"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Shrimp Feed",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "497000",
+                "Production Start Date": "2022-23"
+            }
+        },
+        {
+            "source": "COVID-19",
+            "target": "Avanti Feeds Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.7",
+                "Impact Type": "Financial",
+                "Reason": "High inflation and decline in demand"
+            }
+        },
+        {
+            "source": "Ukraine-Russia war",
+            "target": "Avanti Feeds Limited",
+            "relation": "HAD_NEGATIVE_IMPACT_ON",
+            "properties": {
+                "Impact Level": "0.6",
+                "Impact Type": "Financial",
+                "Reason": "Decline in demand and high inflation"
+            }
+        },
+        {
+            "source": "Avanti Feeds Limited",
+            "target": "Avanti Frozen Foods Private Ltd.",
+            "relation": "OWNS",
+            "properties": {
+                "Ownership Percentage": "100",
+                "Acquisition Date": "Not specified"
+            }
+        }
+    ]
+}

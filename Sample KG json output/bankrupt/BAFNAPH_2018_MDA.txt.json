@@ -1,0 +1,59 @@
+{
+    "summary": "The pharmaceutical industry is expected to grow globally, driven by increasing demand for healthcare and rising incomes in emerging markets. Bafna Pharma is well-positioned to take advantage of this growth, with a strong portfolio of products and a presence in key markets. However, the company faces challenges such as intense competition, regulatory risks, and currency fluctuations. Despite these challenges, Bafna Pharma has a strong management team and a solid financial position, which will enable it to navigate the complexities of the industry and achieve its growth objectives. The company's bankruptcy level is -1, indicating a healthy financial position.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Bafna Pharma",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Bafna Mahaveer Chand",
+            "type": "PERSON"
+        },
+        {
+            "entity": "International Monetary Fund",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "World Health Organization",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Pharmaceuticals",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Bafna Pharma",
+            "target": "Bafna Mahaveer Chand",
+            "relation": "EMPLOYS"
+        },
+        {
+            "source": "International Monetary Fund",
+            "target": "World Health Organization",
+            "relation": "PARTICIPATES_IN"
+        },
+        {
+            "source": "Bafna Pharma",
+            "target": "Pharmaceuticals",
+            "relation": "PRODUCES"
+        },
+        {
+            "source": "World Health Organization",
+            "target": "Bafna Pharma",
+            "relation": "MENTIONS"
+        },
+        {
+            "source": "Bafna Pharma",
+            "target": "India",
+            "relation": "COMPETES_WITH"
+        }
+    ]
+}

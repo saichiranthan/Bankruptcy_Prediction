@@ -1,0 +1,75 @@
+{
+    "summary": "The global economy experienced a growth rate of 3.8% in 2017, driven by an investment recovery in advanced economies and strong growth in emerging Asia. India's economy also experienced a growth rate of 6.7% in 2017-18, despite disruptions caused by the implementation of the Goods and Services Tax (GST) and demonetization. The Indian battery market is expected to grow at a CAGR of 8.36% during 2017-2022, driven by the increasing demand for lead-acid batteries in the automotive and industrial sectors. Amara Raja Batteries Limited is a leading supplier of batteries for automotive applications and has a strong distribution network in India.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "Amara Raja Batteries Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global Economy",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Lead-acid Batteries",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Lithium-ion Batteries",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Lead-acid Batteries",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Amara Raja Batteries Limited",
+            "target": "Lithium-ion Batteries",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "Not specified",
+                "Production Start Date": "Not specified"
+            }
+        },
+        {
+            "source": "Global Economy",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Lead-acid Batteries",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Lithium-ion Batteries",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "2"
+            }
+        }
+    ]
+}

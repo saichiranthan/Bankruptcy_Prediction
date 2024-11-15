@@ -1,0 +1,75 @@
+{
+    "summary": "The Indian economy recovered from a degrowth of 7.3% in 2020-21 to a growth of 8.7% in 2021-22. The country's fiscal deficit was estimated at ~H15.86 trillion for the year ending 31 March, 2022. The Indian sugar industry overview shows that India has become the largest producer and consumer of sugar in the world. The company, Balrampur Chini Mills Limited, is expected to benefit from the growth in the sugar industry. However, the company's financial status and future prospects are not explicitly stated in the text. Based on the sentiment of the text, the company's bankruptcy level is estimated to be -1, indicating a healthy company.",
+    "bankruptcy_level": {
+        "lvl": "-1"
+    },
+    "entities": [
+        {
+            "entity": "India",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Balrampur Chini Mills Limited",
+            "type": "COMPANY"
+        },
+        {
+            "entity": "Global economic review",
+            "type": "EVENT"
+        },
+        {
+            "entity": "Indian sugar industry",
+            "type": "PRODUCT"
+        },
+        {
+            "entity": "Sugar",
+            "type": "PRODUCT"
+        }
+    ],
+    "relations": [
+        {
+            "source": "India",
+            "target": "Global economic review",
+            "relation": "PARTICIPATES_IN",
+            "properties": {
+                "Role": "Participant",
+                "Effect": "0.5"
+            }
+        },
+        {
+            "source": "Balrampur Chini Mills Limited",
+            "target": "Indian sugar industry",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "35.5 million tonnes",
+                "Production Start Date": "2021-22"
+            }
+        },
+        {
+            "source": "Global economic review",
+            "target": "India",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "5"
+            }
+        },
+        {
+            "source": "Global economic review",
+            "target": "Indian sugar industry",
+            "relation": "MENTIONS",
+            "properties": {
+                "Sentiment": "0.5",
+                "Mention Count": "3"
+            }
+        },
+        {
+            "source": "India",
+            "target": "Sugar",
+            "relation": "PRODUCES",
+            "properties": {
+                "Production Volume": "35.5 million tonnes",
+                "Production Start Date": "2021-22"
+            }
+        }
+    ]
+}
